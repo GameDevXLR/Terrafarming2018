@@ -7,7 +7,7 @@ public class ControllerRefocus : MonoBehaviour
 {
     private void Update()
     {
-        if (EventSystem.current.currentSelectedGameObject == null)
+        if (EventSystem.current && EventSystem.current.currentSelectedGameObject == null)
         {
             EventSystem.current.SetSelectedGameObject(EventSystem.current.firstSelectedGameObject);
             //			EventSystem.current.currentSelectedGameObject.GetComponent<Button>().navigation.

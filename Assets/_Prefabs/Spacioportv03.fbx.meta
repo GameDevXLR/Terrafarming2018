@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: eb8df884dd0994d429dadc38ad7d17b9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Antenne01
+    100002: Plane.010
+    100004: spacioport
+    100006: spacioport.002
+    100008: spacioport.005
+    100010: spacioport.006
+    100012: spacioport.007
+    100014: spacioport.008
+    100016: spacioport_bigporte
+    100018: spacioport_bigporte.001
+    100020: spacioport_portedroite
+    100022: spacioport_portegauche
+    100024: spacioport_portegauche.001
+    100026: spacioport_portegauche.002
+    100028: //RootNode
+    100030: Sphere
+    100032: Sphere.001
+    100034: Spot
+    100036: Spot.001
+    100038: Spot.002
+    100040: Spot.003
+    400000: Antenne01
+    400002: Plane.010
+    400004: spacioport
+    400006: spacioport.002
+    400008: spacioport.005
+    400010: spacioport.006
+    400012: spacioport.007
+    400014: spacioport.008
+    400016: spacioport_bigporte
+    400018: spacioport_bigporte.001
+    400020: spacioport_portedroite
+    400022: spacioport_portegauche
+    400024: spacioport_portegauche.001
+    400026: spacioport_portegauche.002
+    400028: //RootNode
+    400030: Sphere
+    400032: Sphere.001
+    400034: Spot
+    400036: Spot.001
+    400038: Spot.002
+    400040: Spot.003
+    2100000: Vitre
+    2100002: Batiment01
+    2100004: Batiment02
+    2100006: Metallic_Batiment
+    2100008: Vitre02pepiniere
+    2300000: Antenne01
+    2300002: Plane.010
+    2300004: spacioport
+    2300006: spacioport.002
+    2300008: spacioport.005
+    2300010: spacioport.006
+    2300012: spacioport.007
+    2300014: spacioport.008
+    2300016: spacioport_bigporte
+    2300018: spacioport_bigporte.001
+    2300020: spacioport_portedroite
+    2300022: spacioport_portegauche
+    2300024: spacioport_portegauche.001
+    2300026: spacioport_portegauche.002
+    2300028: Sphere
+    2300030: Sphere.001
+    3300000: Antenne01
+    3300002: Plane.010
+    3300004: spacioport
+    3300006: spacioport.002
+    3300008: spacioport.005
+    3300010: spacioport.006
+    3300012: spacioport.007
+    3300014: spacioport.008
+    3300016: spacioport_bigporte
+    3300018: spacioport_bigporte.001
+    3300020: spacioport_portedroite
+    3300022: spacioport_portegauche
+    3300024: spacioport_portegauche.001
+    3300026: spacioport_portegauche.002
+    3300028: Sphere
+    3300030: Sphere.001
+    4300000: spacioport_portegauche.002
+    4300002: spacioport_bigporte.001
+    4300004: spacioport_portegauche.001
+    4300006: Plane.010
+    4300008: Sphere.001
+    4300010: Sphere
+    4300012: spacioport_portegauche
+    4300014: spacioport_portedroite
+    4300016: spacioport_bigporte
+    4300018: spacioport.008
+    4300020: Antenne01
+    4300022: spacioport.007
+    4300024: spacioport.006
+    4300026: spacioport.005
+    4300028: spacioport.002
+    4300030: spacioport
+    6400000: Antenne01
+    6400002: Plane.010
+    6400004: spacioport
+    6400006: spacioport.002
+    6400008: spacioport.005
+    6400010: spacioport.006
+    6400012: spacioport.007
+    6400014: spacioport.008
+    6400016: spacioport_bigporte
+    6400018: spacioport_bigporte.001
+    6400020: spacioport_portedroite
+    6400022: spacioport_portegauche
+    6400024: spacioport_portegauche.001
+    6400026: spacioport_portegauche.002
+    6400028: Sphere
+    6400030: Sphere.001
+    10800000: Spot
+    10800002: Spot.001
+    10800004: Spot.002
+    10800006: Spot.003
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 5
+    meshCompression: 3
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
