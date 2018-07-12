@@ -8,7 +8,7 @@ public class PlantationManager : MonoBehaviour
 
     public static PlantationManager instance;
 
-    public List<PlantationSpotEnhanced> plantationList = new List<PlantationSpotEnhanced>();
+    public List<PlantationSpot> plantationList = new List<PlantationSpot>();
 
     [Header("gestion du menu de plantage de graine")]
 
@@ -30,7 +30,7 @@ public class PlantationManager : MonoBehaviour
     public bool isSeedMenuOpen;
 
     //le plantation spot avec lequel on interagit actuellement
-    public PlantationSpotEnhanced plantationSpot;
+    public PlantationSpot plantationSpot;
 
     private void Awake()
     {
@@ -71,7 +71,7 @@ public class PlantationManager : MonoBehaviour
 
     #region SeedsMenus
 
-    public void ShowPlantTypeMenu(PlantationSpotEnhanced spot)
+    public void ShowPlantTypeMenu(PlantationSpot spot)
     {
         if (PlantCollection.instance.collectionOpen)
         {

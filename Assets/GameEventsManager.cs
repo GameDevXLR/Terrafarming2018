@@ -30,7 +30,7 @@ public class GameEventsManager : MonoBehaviour
 
     public Transform introSeedStartPosTr;
     public AlchimieGame gameThatActivateTheIntro;
-    public PlantationSpotEnhanced plantationSpotToActivate;
+    public PlantationSpot plantationSpotToActivate;
 
     [Header("cinematique tuto graine planter:")]
     public PlayableAsset plantedPA;

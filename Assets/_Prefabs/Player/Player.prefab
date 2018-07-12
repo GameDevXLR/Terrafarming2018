@@ -21,12 +21,12 @@ GameObject:
   - component: {fileID: 4310900393370734}
   - component: {fileID: 198266998254633860}
   - component: {fileID: 199203140825060916}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: PropulseurRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 0
 --- !u!1 &1029260422798448
 GameObject:
@@ -37,12 +37,12 @@ GameObject:
   m_Component:
   - component: {fileID: 4195031430503710}
   - component: {fileID: 137620903486475146}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Sphere.000
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1055279827896652
 GameObject:
@@ -54,12 +54,12 @@ GameObject:
   - component: {fileID: 4749998499025196}
   - component: {fileID: 198220855534571828}
   - component: {fileID: 199418238249948264}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: MiningFailParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1063122552635756
 GameObject:
@@ -71,12 +71,12 @@ GameObject:
   - component: {fileID: 4200637349332170}
   - component: {fileID: 198725401795623702}
   - component: {fileID: 199596181383771100}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: MineraiPtc (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1115514353196582
 GameObject:
@@ -86,12 +86,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4069068286237128}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:LeftToe_End_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1121603326698766
 GameObject:
@@ -101,12 +101,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4869794431970454}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:HeadTop_End_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1124358557050644
 GameObject:
@@ -116,12 +116,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4714115710098464}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:LeftForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1148556124237952
 GameObject:
@@ -133,12 +133,12 @@ GameObject:
   - component: {fileID: 4820740801641186}
   - component: {fileID: 198739278694227540}
   - component: {fileID: 199494963629743300}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Explosion10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1149170940632376
 GameObject:
@@ -150,12 +150,12 @@ GameObject:
   - component: {fileID: 4879107603942658}
   - component: {fileID: 198867606426710902}
   - component: {fileID: 199158988556747130}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Beam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1184844302497396
 GameObject:
@@ -165,12 +165,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4728614624704776}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:RightToe_End_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1202632968515580
 GameObject:
@@ -180,12 +180,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4154194477304790}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1203619071398122
 GameObject:
@@ -197,12 +197,12 @@ GameObject:
   - component: {fileID: 4519557846448238}
   - component: {fileID: 198440318531296704}
   - component: {fileID: 199352261434190636}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Explosion10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1207216507293326
 GameObject:
@@ -212,12 +212,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4143422037018936}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: MiningHitParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1214409812146150
 GameObject:
@@ -229,12 +229,12 @@ GameObject:
   - component: {fileID: 4097108201772368}
   - component: {fileID: 198044604142505754}
   - component: {fileID: 199310245115901540}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: MiningHitParticleRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1221653992975852
 GameObject:
@@ -246,12 +246,12 @@ GameObject:
   - component: {fileID: 4006547606587274}
   - component: {fileID: 198944582225495490}
   - component: {fileID: 199517259517478652}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: MiningChargeParticleRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1222289716855714
 GameObject:
@@ -263,12 +263,12 @@ GameObject:
   - component: {fileID: 4789584551650578}
   - component: {fileID: 198746187651334860}
   - component: {fileID: 199051990006692306}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: WaterParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1229053887979770
 GameObject:
@@ -280,12 +280,12 @@ GameObject:
   - component: {fileID: 4985476543100838}
   - component: {fileID: 198000152818588940}
   - component: {fileID: 199659751130720710}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: BeamMining
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1278576952722272
 GameObject:
@@ -295,12 +295,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4243129842311808}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1306801401504614
 GameObject:
@@ -311,12 +311,12 @@ GameObject:
   m_Component:
   - component: {fileID: 4987027299143510}
   - component: {fileID: 182530722829531978}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: WindZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1319116409929338
 GameObject:
@@ -326,12 +326,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4135394189355874}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:RightForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1343389156624136
 GameObject:
@@ -341,12 +341,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4129240958564286}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1376706344044412
 GameObject:
@@ -356,12 +356,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4197048692448230}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1379583580715714
 GameObject:
@@ -373,12 +373,12 @@ GameObject:
   - component: {fileID: 4935913973969530}
   - component: {fileID: 198096132357794890}
   - component: {fileID: 199280664406037156}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: MiningChargeParticleLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1409990224273386
 GameObject:
@@ -389,18 +389,17 @@ GameObject:
   m_Component:
   - component: {fileID: 4149217858020306}
   - component: {fileID: 95370486179902516}
-  - component: {fileID: 136987580847828158}
   - component: {fileID: 114114146643220672}
   - component: {fileID: 143587825279029178}
   - component: {fileID: 114870472816617620}
   - component: {fileID: 114931252757149992}
   - component: {fileID: 114646774024954818}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1417553397391732
 GameObject:
@@ -410,12 +409,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4169643319540568}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:RightToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1422454488681566
 GameObject:
@@ -427,12 +426,12 @@ GameObject:
   - component: {fileID: 4161043882595094}
   - component: {fileID: 198154835710791314}
   - component: {fileID: 199525747597098028}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: BurstPoing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1445240640690524
 GameObject:
@@ -442,12 +441,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4157956149446794}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1446346050573408
 GameObject:
@@ -457,12 +456,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4983523471271910}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1459155540101792
 GameObject:
@@ -472,12 +471,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4413545874571944}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1482183139210236
 GameObject:
@@ -487,12 +486,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4630631153002620}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:RightToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1484264349127336
 GameObject:
@@ -502,12 +501,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4609666652700694}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:LeftToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1491407085924070
 GameObject:
@@ -517,12 +516,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4823672042973760}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:LeftToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1493107340730792
 GameObject:
@@ -534,12 +533,12 @@ GameObject:
   - component: {fileID: 4777447357097974}
   - component: {fileID: 198615867627809632}
   - component: {fileID: 199988704062092140}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Beam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1514876320084406
 GameObject:
@@ -549,12 +548,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4940641387043486}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:RightUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1520954163216244
 GameObject:
@@ -564,12 +563,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4182113527070990}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1531327312583286
 GameObject:
@@ -581,13 +580,13 @@ GameObject:
   - component: {fileID: 4234201184782030}
   - component: {fileID: 65054850002994508}
   - component: {fileID: 54837440552669062}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: zoneDetection
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_StaticEditorFlags: 7
+  m_IsActive: 0
 --- !u!1 &1535079966020690
 GameObject:
   m_ObjectHideFlags: 1
@@ -598,12 +597,12 @@ GameObject:
   - component: {fileID: 4236387902014248}
   - component: {fileID: 198244758368047226}
   - component: {fileID: 199592348557615252}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: PropulseurLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 0
 --- !u!1 &1545310255313830
 GameObject:
@@ -621,7 +620,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 0
 --- !u!1 &1551092944386562
 GameObject:
@@ -631,12 +630,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4335320071064170}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1565708938781808
 GameObject:
@@ -646,12 +645,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4063576391128852}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:LeftHand_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1571271505748606
 GameObject:
@@ -661,12 +660,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4462262490310274}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1596164349262004
 GameObject:
@@ -676,12 +675,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4803257937643984}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:HeadTop_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1617385387755492
 GameObject:
@@ -693,12 +692,12 @@ GameObject:
   - component: {fileID: 4471417315291952}
   - component: {fileID: 198323375012667150}
   - component: {fileID: 199842580430051556}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: BurstPoing (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1652581211652500
 GameObject:
@@ -710,12 +709,12 @@ GameObject:
   - component: {fileID: 4743682592026566}
   - component: {fileID: 198133327976598868}
   - component: {fileID: 199371139681211442}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Beam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1694328662424796
 GameObject:
@@ -727,12 +726,12 @@ GameObject:
   - component: {fileID: 4752313370784070}
   - component: {fileID: 198984707191698028}
   - component: {fileID: 199406761794311222}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: CleanPlantationParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1696775085512896
 GameObject:
@@ -744,12 +743,12 @@ GameObject:
   - component: {fileID: 4006635255835578}
   - component: {fileID: 198268421621517316}
   - component: {fileID: 199678997083788294}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Beam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1708154913695140
 GameObject:
@@ -761,12 +760,12 @@ GameObject:
   - component: {fileID: 4130027574669958}
   - component: {fileID: 198474907121908686}
   - component: {fileID: 199450925767810774}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: MiningFailParticleRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1721898064153696
 GameObject:
@@ -776,12 +775,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4155137565622132}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:LeftShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1729353379194568
 GameObject:
@@ -791,12 +790,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4557760871678092}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:RightHand_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1737574923013922
 GameObject:
@@ -806,12 +805,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4038990825670516}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1770574700488588
 GameObject:
@@ -822,12 +821,12 @@ GameObject:
   m_Component:
   - component: {fileID: 4192655247820782}
   - component: {fileID: 137624765613521024}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: AstroMesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1803132944040698
 GameObject:
@@ -839,12 +838,12 @@ GameObject:
   - component: {fileID: 4696692081764150}
   - component: {fileID: 198900031605837296}
   - component: {fileID: 199385926900842980}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: MineraiPtc
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1820557650063850
 GameObject:
@@ -856,12 +855,12 @@ GameObject:
   - component: {fileID: 4657457902307666}
   - component: {fileID: 198919471450410588}
   - component: {fileID: 199616773104176148}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: WalkParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1849164061397120
 GameObject:
@@ -873,12 +872,12 @@ GameObject:
   - component: {fileID: 4915987900856018}
   - component: {fileID: 198573012284949442}
   - component: {fileID: 199425037410571080}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: MineHitEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1855603705643432
 GameObject:
@@ -888,12 +887,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4542800157367644}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1867505920473328
 GameObject:
@@ -903,12 +902,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4047875528989344}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1882779857510254
 GameObject:
@@ -918,12 +917,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4042590455527792}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:LeftUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1883553251224950
 GameObject:
@@ -935,12 +934,12 @@ GameObject:
   - component: {fileID: 4277545033557338}
   - component: {fileID: 198452419878149528}
   - component: {fileID: 199783507307504090}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Beam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1893068765408610
 GameObject:
@@ -952,12 +951,12 @@ GameObject:
   - component: {fileID: 4481056956027122}
   - component: {fileID: 198663940170810956}
   - component: {fileID: 199194972361571760}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Explosion10 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1913733633360970
 GameObject:
@@ -967,12 +966,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4642233100630250}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:RightShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1920399997135300
 GameObject:
@@ -982,12 +981,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4101158300853330}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1923956751683520
 GameObject:
@@ -999,12 +998,12 @@ GameObject:
   - component: {fileID: 4788503852015930}
   - component: {fileID: 198750431876461640}
   - component: {fileID: 199718462742902736}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Electric (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1939792552735546
 GameObject:
@@ -1014,12 +1013,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4154416221424056}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mixamorig:LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1949700468896742
 GameObject:
@@ -1031,12 +1030,12 @@ GameObject:
   - component: {fileID: 4971847112764036}
   - component: {fileID: 198529596912401870}
   - component: {fileID: 199257245821403104}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: MiningHitParticleLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1957625881786826
 GameObject:
@@ -1048,12 +1047,12 @@ GameObject:
   - component: {fileID: 4434319412281832}
   - component: {fileID: 198744088725599356}
   - component: {fileID: 199564363312653622}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Particle System (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 0
 --- !u!1 &1982942592724668
 GameObject:
@@ -1065,12 +1064,12 @@ GameObject:
   - component: {fileID: 4432971727582142}
   - component: {fileID: 198149392382809980}
   - component: {fileID: 199462506299464226}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Electric
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!1 &1995596965411258
 GameObject:
@@ -1081,12 +1080,12 @@ GameObject:
   m_Component:
   - component: {fileID: 4594257775349822}
   - component: {fileID: 114616674038648388}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: PropulseursParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 7
   m_IsActive: 1
 --- !u!4 &4006547606587274
 Transform:
@@ -1279,7 +1278,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1409990224273386}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.2, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4851271022953442}
@@ -2092,7 +2091,7 @@ Animator:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1409990224273386}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 8dd6c557a9ecc364f9131103145f1688, type: 3}
+  m_Avatar: {fileID: 9000000, guid: ab16fa5dc4a8b4f4c9b4b274245d9c2c, type: 3}
   m_Controller: {fileID: 9100000, guid: 093ce0c9ff39fe742ab7bfcfe5c57ebd, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
@@ -2117,7 +2116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Cc: {fileID: 143587825279029178}
-  isGrounded: 1
+  isGrounded: 0
   anim: {fileID: 95370486179902516}
   canDoAction: 1
   behaviour: {fileID: 114870472816617620}
@@ -2189,7 +2188,7 @@ MonoBehaviour:
   numberOfDetectObj: 0
   layer:
     serializedVersion: 2
-    m_Bits: 8192
+    m_Bits: 512
 --- !u!114 &114931252757149992
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2205,21 +2204,8 @@ MonoBehaviour:
   controller: {fileID: 114114146643220672}
   mask:
     serializedVersion: 2
-    m_Bits: 8192
+    m_Bits: 512
   distanceMax: 60
---- !u!136 &136987580847828158
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1409990224273386}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  m_Radius: 0.3
-  m_Height: 1.6
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.8, z: 0}
 --- !u!137 &137620903486475146
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -2235,9 +2221,9 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: c83cdaa2cf0cd6143a24627f90580b17, type: 3}
-  - {fileID: 2100002, guid: c83cdaa2cf0cd6143a24627f90580b17, type: 3}
-  - {fileID: 2100004, guid: c83cdaa2cf0cd6143a24627f90580b17, type: 3}
+  - {fileID: 2100000, guid: 713142ff8444e2243b76ec339196885a, type: 2}
+  - {fileID: 2100000, guid: 667e2ede16cbef44384d6f951424e5c7, type: 2}
+  - {fileID: 2100000, guid: dcca87c794a525b4eba9db387a727ecc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2261,7 +2247,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 4300000, guid: c83cdaa2cf0cd6143a24627f90580b17, type: 3}
+  m_Mesh: {fileID: 4300000, guid: ab16fa5dc4a8b4f4c9b4b274245d9c2c, type: 3}
   m_Bones:
   - {fileID: 4129240958564286}
   - {fileID: 4157956149446794}
@@ -2309,10 +2295,10 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: c83cdaa2cf0cd6143a24627f90580b17, type: 3}
-  - {fileID: 2100006, guid: c83cdaa2cf0cd6143a24627f90580b17, type: 3}
-  - {fileID: 2100002, guid: c83cdaa2cf0cd6143a24627f90580b17, type: 3}
-  - {fileID: 2100004, guid: c83cdaa2cf0cd6143a24627f90580b17, type: 3}
+  - {fileID: 2100000, guid: 713142ff8444e2243b76ec339196885a, type: 2}
+  - {fileID: 2100000, guid: 667e2ede16cbef44384d6f951424e5c7, type: 2}
+  - {fileID: 2100000, guid: 667e2ede16cbef44384d6f951424e5c7, type: 2}
+  - {fileID: 2100000, guid: dcca87c794a525b4eba9db387a727ecc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2336,7 +2322,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 4300002, guid: c83cdaa2cf0cd6143a24627f90580b17, type: 3}
+  m_Mesh: {fileID: 4300002, guid: ab16fa5dc4a8b4f4c9b4b274245d9c2c, type: 3}
   m_Bones:
   - {fileID: 4129240958564286}
   - {fileID: 4157956149446794}

@@ -2,11 +2,10 @@
 using UnityEngine;
 
 [RequireComponent(typeof(AudioSource))]
-public class PlantationSpotEnhanced : MonoBehaviour
+public class PlantationSpot : MonoBehaviour
 {
-    //refonte du plantation spot pour qu'il se réfère plus aux scriptable object et pour différencier "plantation spot" et "plantes"...
-    //C'était pas bien clair tout ca :/
-    //voir aussi pour un nouveau systeme de menu des graines hein.
+    //refonte du plantation spot enhanced de 2017 pour intégrer ECS Hybrid !
+    //Courage XD
 
     #region les variables
 
@@ -54,7 +53,7 @@ public class PlantationSpotEnhanced : MonoBehaviour
 
     public WaterIconManager waterIcon;
 
-    private AudioSource audioS;
+    [HideInInspector] public AudioSource audioS;
     public AudioClip waterSound;
     public AudioClip expansionSound;
     public AudioClip growthSound;
@@ -75,10 +74,10 @@ public class PlantationSpotEnhanced : MonoBehaviour
 
     //gestion des timers de pousse.
     public float timeToGrow;
+    public bool isGrowing;
 
     [HideInInspector] public float growthStartTime; // a augmenter pour speedé le dév d'une plante.
     private float timeSpentGrowing;
-    private bool isGrowing;
 
     //Le génome de la plante.
     public Genome genome;
@@ -97,10 +96,10 @@ public class PlantationSpotEnhanced : MonoBehaviour
     [Header("Gestion du voisinnage")]
     private
     //un array des voisins peuplé par un spherecast. Limite le nombre max de détections, ne fait pas de "garbage".
-    Collider[] hits = new Collider[12];
+    Collider[] hits = new Collider[20];
 
     //une liste de nos voisins(gameobjects).
-    public List<PlantationSpotEnhanced> neighboursSpot = new List<PlantationSpotEnhanced>();
+    public List<PlantationSpot> neighboursSpot = new List<PlantationSpot>();
 
     //la portée de detection des voisins.
     public float sphereRadius;
@@ -116,39 +115,40 @@ public class PlantationSpotEnhanced : MonoBehaviour
 
     #region monoBehaviour Stuff
 
-    private void Start()
-    {
-        if (!canBeUsed)
-        {
-            outliner.enabled = false;
-        }
-        audioS = GetComponent<AudioSource>();
-        //fait un cast pour référencer tous les plantationSpot a proximité.
-        FindYourNeighbours();
-        if (!PlantationManager.instance.plantationList.Contains(this))
-        {
-            PlantationManager.instance.plantationList.Add(this);
-        }
-    }
+    //private void Start()
+    //{
+    //    if (!canBeUsed)
+    //    {
+    //        outliner.enabled = false;
+    //    }
+    //    audioS = GetComponent<AudioSource>();
+    //    //fait un cast pour référencer tous les plantationSpot a proximité.
+    //    FindYourNeighbours();
+    //    if (!PlantationManager.instance.plantationList.Contains(this))
+    //    {
+    //        PlantationManager.instance.plantationList.Add(this);
+    //    }
+    //}
 
-    private void Update()
-    {
-        if (isGrowing)
-        {
-            if (Time.time > growthStartTime + timeToGrow)
-            {
-                //faire evoluer la plante
-                ChangePlantState();
-                growthStartTime = Time.time;
-                growthBoosted = false;
-            }
-        }
-    }
+    //private void Update()
+    //{
+        //if (isGrowing)
+        //{
+        //    if (Time.time > growthStartTime + timeToGrow)
+        //    {
+        //        //faire evoluer la plante
+        //        ChangePlantState();
+        //        growthStartTime = Time.time;
+        //        growthBoosted = false;
+        //    }
+        //}
+    //}
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player" && !isGrowing || other.tag == "Player" && giveEssence)
         {
+            
             //si t'as pas de débris et que t'es pas a portée ,arrete.
             if (actualPlantState != PlantStateEnum.debris && !canBeUsed)
             {
@@ -214,7 +214,7 @@ public class PlantationSpotEnhanced : MonoBehaviour
         {
             if (hits[i].transform != transform)
             {
-                neighboursSpot.Add(hits[i].transform.gameObject.GetComponent<PlantationSpotEnhanced>());
+                neighboursSpot.Add(hits[i].transform.gameObject.GetComponent<PlantationSpot>());
             }
         }
     }
@@ -437,165 +437,6 @@ public class PlantationSpotEnhanced : MonoBehaviour
                 break;
         }
     }
-
-    //	// choisir la graine OLD
-    //	/// <summary>
-    //	/// Selects the type of the plant.
-    //	/// </summary>
-    //	/// <param name="index">Index.</param>
-    //	public void SelectPlantType(int index)
-    //	{
-    //		switch (spotBiome)
-    //		{
-    //		case BiomeEnum.plain:
-    //			switch (index)
-    //			{
-    //			//t'es une fleur
-    //			case 0:
-    //				ResourcesManager.instance.ChangeFlowerSeed (-1);
-    //				plantSO = PlantCollection.instance.airFlower;
-    //
-    //				timeToGrow = plantSO.desiredGrowthTime;
-    //				//faut mettre un calcul pertinent pour le temps d'animation juste la :
-    //				growthAnimator.SetFloat ("growthspeed", 16f);
-    //				plantType = PlantTypeEnum.flower;
-    //
-    //				break;
-    //
-    //				//t'es un bush
-    //			case 1:
-    //				ResourcesManager.instance.ChangeBushSeed (-1);
-    //				plantSO = PlantCollection.instance.airBush;
-    //
-    //				timeToGrow = plantSO.desiredGrowthTime;
-    //				nbrOfGivenEssence = 1;
-    //				growthAnimator.SetFloat ("growthspeed", 8.3f);
-    //				plantType = PlantTypeEnum.bush;
-    //				break;
-    //
-    //
-    //				//t'es un arbre
-    //			case 2:
-    //				ResourcesManager.instance.ChangeTreeSeed (-1);
-    //				plantSO = PlantCollection.instance.airTree;
-    //
-    //				timeToGrow = plantSO.desiredGrowthTime;
-    //				nbrOfGivenEssence = 3;
-    //				growthAnimator.SetFloat ("growthspeed", 3.3f);
-    //				plantType = PlantTypeEnum.tree;
-    //
-    //				break;
-    //
-    //			default:
-    //				Debug.Log ("t'es une plante inconnu mec!");
-    //				break;
-    //			}
-    //			break;
-    //		case BiomeEnum.crater:
-    //			switch (index)
-    //			{
-    //			//t'es une fleur
-    //			case 0:
-    //				ResourcesManager.instance.ChangeFlowerSeed (-1);
-    //				plantSO = PlantCollection.instance.craterFlower;
-    //
-    //				timeToGrow = plantSO.desiredGrowthTime;
-    //				//faut mettre un calcul pertinent pour le temps d'animation juste la :
-    //				growthAnimator.SetFloat ("growthspeed", 16f);
-    //				plantType = PlantTypeEnum.flower;
-    //
-    //				break;
-    //
-    //				//t'es un bush
-    //			case 1:
-    //				ResourcesManager.instance.ChangeBushSeed (-1);
-    //				plantSO = PlantCollection.instance.craterBush;
-    //
-    //				timeToGrow = plantSO.desiredGrowthTime;
-    //				nbrOfGivenEssence = 1;
-    //				growthAnimator.SetFloat ("growthspeed", 8.3f);
-    //				plantType = PlantTypeEnum.bush;
-    //				break;
-    //
-    //
-    //				//t'es un arbre
-    //			case 2:
-    //				ResourcesManager.instance.ChangeTreeSeed (-1);
-    //				plantSO = PlantCollection.instance.craterTree;
-    //
-    //				timeToGrow = plantSO.desiredGrowthTime;
-    //				nbrOfGivenEssence = 3;
-    //				growthAnimator.SetFloat ("growthspeed", 3.3f);
-    //				plantType = PlantTypeEnum.tree;
-    //
-    //				break;
-    //
-    //			default:
-    //				Debug.Log ("t'es une plante inconnu mec!");
-    //				break;
-    //			}
-    //			break;
-    //		case BiomeEnum.cave:
-    //			switch (index)
-    //			{
-    //			//t'es une fleur
-    //			case 0:
-    //				ResourcesManager.instance.ChangeFlowerSeed (-1);
-    //				plantSO = PlantCollection.instance.caveFlower;
-    //
-    //				timeToGrow = plantSO.desiredGrowthTime;
-    //				//faut mettre un calcul pertinent pour le temps d'animation juste la :
-    //				growthAnimator.SetFloat ("growthspeed", 16f);
-    //				plantType = PlantTypeEnum.flower;
-    //
-    //				break;
-    //
-    //				//t'es un bush
-    //			case 1:
-    //				ResourcesManager.instance.ChangeBushSeed (-1);
-    //				plantSO = PlantCollection.instance.caveBush;
-    //
-    //				timeToGrow = plantSO.desiredGrowthTime;
-    //				nbrOfGivenEssence = 1;
-    //				growthAnimator.SetFloat ("growthspeed", 8.3f);
-    //				plantType = PlantTypeEnum.bush;
-    //				break;
-    //
-    //
-    //				//t'es un arbre
-    //			case 2:
-    //				ResourcesManager.instance.ChangeTreeSeed (-1);
-    //				plantSO = PlantCollection.instance.caveTree;
-    //
-    //				timeToGrow = plantSO.desiredGrowthTime;
-    //				nbrOfGivenEssence = 3;
-    //				growthAnimator.SetFloat ("growthspeed", 3.3f);
-    //				plantType = PlantTypeEnum.tree;
-    //
-    //				break;
-    //
-    //			default:
-    //				Debug.Log ("t'es une plante inconnu mec!");
-    //				break;
-    //			}
-    //			break;
-    //
-    //		default:
-    //			break;
-    //		}
-    //
-    //		actualPlantState = PlantStateEnum.seed;
-    //		Genome ge = gameObject.AddComponent<Genome> ();
-    //		genome = ge;
-    //
-    //		//fonctionne que si t'es un "pure race a un biome"...Faudra voir ce qu'on fait pour les hybrides. je pense ajouter un parametre ou 2.
-    //		genome.Initialize (plantSO,spotBiome);
-    //		SpawnThenHidePlants ();
-    //		lopinSeedObj.SetActive(true);
-    //		growthStartTime = Time.time;
-    //		RecquireWater();
-    //	}
-
     //nouveau systeme de plantage de graine basé sur un PlantObj.
     //remplace la fonction au dessus.
     //est appelé principalement pour le moment par la nouvelle interface de plantage de graines et ses boutons (en cours de création)

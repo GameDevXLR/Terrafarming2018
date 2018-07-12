@@ -8,12 +8,12 @@ public class PlantGrowthCycleManager : MonoBehaviour
     private bool isWatered;
     private float wateredTime;
 
-    private PlantationSpotEnhanced plantSpot;
+    private PlantationSpot plantSpot;
 
     // Use this for initialization
     private void Start()
     {
-        plantSpot = GetComponent<PlantationSpotEnhanced>();
+        plantSpot = GetComponent<PlantationSpot>();
     }
 
     public IEnumerator StartGrowing()
