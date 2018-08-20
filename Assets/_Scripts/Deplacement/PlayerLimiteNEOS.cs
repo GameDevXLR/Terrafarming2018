@@ -27,7 +27,8 @@ public class PlayerLimiteNEOS : MonoBehaviour
         if (transform.position != pos)
         {
             transform.position = pos;
-            CameraController.instance.moveCam();
+            // let to move the cam directly at the player position (without smooth)
+            InGameManager.instance.cameraControllerPlayer.moveCam();  
         }
     }
 }

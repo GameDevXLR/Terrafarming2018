@@ -24,9 +24,7 @@ public class CameraController : MonoBehaviour
 
     [SerializeField]
     private float distance = 20;
-
-    public static CameraController instance;
-
+    
     private float targetAngle = 0;
     private const float rotationAmount = 1.0f;
 
@@ -37,7 +35,7 @@ public class CameraController : MonoBehaviour
     private float h = 45;
 
     private float z;
-    private bool isSettingAngle = false;
+
 
     #endregion other variables
 
@@ -45,12 +43,9 @@ public class CameraController : MonoBehaviour
 
     private void Awake()
     {
-        if (instance == null)
-        {
-            instance = this;
-            setVerticalUI(v);
-            setHorizontalUI(h);
-        }
+        setVerticalUI(v);
+        setHorizontalUI(h);
+        
     }
 
     private void Start()
@@ -62,47 +57,9 @@ public class CameraController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetAxis("Mouse ScrollWheel") > 0) // forward
-        {
-            Distance -= stepZoom;
-        }
-        else if (Input.GetAxis("Mouse ScrollWheel") < 0) // back
-        {
-            Distance += stepZoom;
-        }
-
-        Distance = Mathf.Clamp(Distance, minDistance, maxDistance);
-
-        //transform.position = Vector3.Lerp(transform.position, focus.transform.position + offset * distance, smooth * Time.deltaTime );
-
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            H -= rotationAmount;
-            isSettingAngle = true;
-        }
-        else if (Input.GetKey(KeyCode.RightArrow))
-        {
-            H += rotationAmount;
-            isSettingAngle = true;
-        }
-
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            V -= rotationAmount;
-            isSettingAngle = true;
-        }
-        else if (Input.GetKey(KeyCode.UpArrow))
-        {
-            V += rotationAmount;
-            isSettingAngle = true;
-        }
-
+        
         moveSmoothlyCam();
-        if (isSettingAngle)
-        {
-            RotateSmoothlyCam();
-            isSettingAngle = false;
-        }
+        RotateSmoothlyCam();
     }
 
     #endregion unity methods

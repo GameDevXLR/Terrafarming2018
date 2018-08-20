@@ -30,6 +30,8 @@ public class InGameManager : MonoBehaviour
     public Button quitBtn;
     public bool isPlanting;
 
+    public CameraController cameraControllerPlayer;
+
     private void Awake()
     {
         if (instance == null)

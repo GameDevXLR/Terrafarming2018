@@ -44,19 +44,19 @@ public class CustomInputManager : MonoBehaviour
         if (Input.GetKey(forwardkey))
         {
             //direction.z = 1;
-            direction += CameraController.instance.transform.forward;
+            direction += InGameManager.instance.cameraControllerPlayer.transform.forward;
         }
         if (Input.GetKey(backwardKey))
         {
-            direction -= CameraController.instance.transform.forward;
+            direction -= InGameManager.instance.cameraControllerPlayer.transform.forward;
         }
         if (Input.GetKey(leftKey))
         {
-            direction += CameraController.instance.transform.right;
+            direction += InGameManager.instance.cameraControllerPlayer.transform.right;
         }
         if (Input.GetKey(rightKey))
         {
-            direction -= CameraController.instance.transform.right;
+            direction -= InGameManager.instance.cameraControllerPlayer.transform.right;
         }
 
         direction.y = 0;
