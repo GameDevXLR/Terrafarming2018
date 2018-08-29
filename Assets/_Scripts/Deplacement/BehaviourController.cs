@@ -24,6 +24,7 @@ public class BehaviourController : MonoBehaviour
     private float referenceYFly;
     private float maxHeight = 20;    
     private float minHeight = 0;
+    public float flotaison = 0;
 
 
     #endregion
@@ -43,7 +44,9 @@ public class BehaviourController : MonoBehaviour
                 speed = (value) ? speed * multSpeedFly : speed / multSpeedFly;
             }
             isFlying = value;
-            float yref = transform.position.y - calculateJumpHeight();
+            float yref = transform.position.y - calculateJumpHeight() * flotaison;
+            //float yref = transform.position.y - flotaison;
+            //Debug.Log(transform.position.y + " / " + yref + " / " + calculateJumpHeight() +" / " +  calculateJumpHeight() * flotaison);
             referenceYFly = (yref <= MinHeight) ? MinHeight : (yref > MaxHeight) ? MaxHeight : yref;
         }
     }
@@ -103,8 +106,8 @@ public class BehaviourController : MonoBehaviour
         if (isFlying)
         {
             if (transform.position.y <= referenceYFly)
-                Jump();
-            Gravity(gravity / 2);
+                Jump(flotaison);
+            Gravity((gravity / 2) * flotaison);
         }
         else
         {
@@ -168,6 +171,12 @@ public class BehaviourController : MonoBehaviour
     {
         if (transform.position.y < MaxHeight)
             moveDirection.y = jumpSpeed;
+    }
+
+    public void Jump(float potentiel)
+    {
+        if (transform.position.y < MaxHeight)
+            moveDirection.y = jumpSpeed * potentiel;
     }
 
     public float calculateJumpHeight()

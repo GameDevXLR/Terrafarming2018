@@ -1718,13 +1718,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9eca2bd79cb45e6459a62930bab0b892, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forwardkey: 122
   forwardkeyList: 
-  backwardKey: 115
   backwardKeyList: 
-  rightKey: 113
   rightKeyList: 
-  leftKey: 100
   leftKeyList: 
   actionKey: 102
   jumpKey: 32

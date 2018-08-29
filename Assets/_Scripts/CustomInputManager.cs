@@ -80,7 +80,6 @@ public class CustomInputManager : MonoBehaviour
         foreach (KeyCode key in keylist)
         {
             resultat = Input.GetKey(key);
-            Debug.Log(key + " : " + resultat);
             if (Input.GetKey(key))
             {
                 return true;
