@@ -2191,6 +2191,7 @@ MonoBehaviour:
   isFlying: 0
   multSpeedFly: 2
   maxHeightReference: 20
+  flotaison: 0.2
 --- !u!114 &114891249705354998
 MonoBehaviour:
   m_ObjectHideFlags: 1

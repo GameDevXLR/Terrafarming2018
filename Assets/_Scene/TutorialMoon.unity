@@ -728,6 +728,11 @@ Prefab:
       propertyPath: cameraController
       value: 
       objectReference: {fileID: 664961007}
+    - target: {fileID: 114870472816617620, guid: 76ed61fc17985e34db33d95ffa657832,
+        type: 2}
+      propertyPath: flotaison
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76ed61fc17985e34db33d95ffa657832, type: 2}
   m_IsPrefabAsset: 0
