@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
+using System.Collections;
 
 public class CustomInputManager : MonoBehaviour
 {
-    public KeyCode forwardkey = KeyCode.Z;
-    public KeyCode backwardKey = KeyCode.S;
-    public KeyCode rightKey = KeyCode.Q;
-    public KeyCode leftKey = KeyCode.D;
+    public KeyCode[] forwardkeyList;
+    public KeyCode[] backwardKeyList;
+    public KeyCode[] rightKeyList;
+    public KeyCode[] leftKeyList;
     public KeyCode actionKey = KeyCode.Space;
     public KeyCode jumpKey = KeyCode.J;
 
@@ -22,9 +23,11 @@ public class CustomInputManager : MonoBehaviour
             instance = this;
             if (PlayerPrefs.GetString("Keyboard") != "azerty")
             {
-                forwardkey = KeyCode.W;
-                rightKey = KeyCode.A;
+                forwardkeyList[0] = KeyCode.W;
+                rightKeyList[0] = KeyCode.A;
             }
+
+
         }
     }
 
@@ -41,22 +44,22 @@ public class CustomInputManager : MonoBehaviour
     {
         Vector3 direction = new Vector3();
 
-        if (Input.GetKey(forwardkey))
+        if (GetForwardKey())
         {
             //direction.z = 1;
             direction += InGameManager.instance.cameraControllerPlayer.transform.forward;
         }
-        if (Input.GetKey(backwardKey))
+        if (GetBackwardKey())
         {
             direction -= InGameManager.instance.cameraControllerPlayer.transform.forward;
         }
-        if (Input.GetKey(leftKey))
-        {
-            direction += InGameManager.instance.cameraControllerPlayer.transform.right;
-        }
-        if (Input.GetKey(rightKey))
+        if (GetLeftKey())
         {
             direction -= InGameManager.instance.cameraControllerPlayer.transform.right;
+        }
+        if (GetRightKey())
+        {
+            direction += InGameManager.instance.cameraControllerPlayer.transform.right;
         }
 
         direction.y = 0;
@@ -66,6 +69,44 @@ public class CustomInputManager : MonoBehaviour
 
     public bool IsMoving()
     {
-        return Input.GetKey(forwardkey) || Input.GetKey(backwardKey) || Input.GetKey(leftKey) || Input.GetKey(rightKey);
+        return GetForwardKey() || GetBackwardKey() || GetLeftKey() || GetRightKey();
     }
+
+    public bool GetKeyInList(KeyCode[] keylist)
+    {
+
+        bool resultat;
+       
+        foreach (KeyCode key in keylist)
+        {
+            resultat = Input.GetKey(key);
+            Debug.Log(key + " : " + resultat);
+            if (Input.GetKey(key))
+            {
+                return true;
+            }
+                
+        }
+        return false;
+    }
+
+
+    public bool GetForwardKey()
+    {
+        return GetKeyInList(forwardkeyList);
+    }
+    public bool GetBackwardKey()
+    {
+        return GetKeyInList(backwardKeyList);
+    }
+
+    public bool GetLeftKey()
+    {
+        return GetKeyInList(leftKeyList);
+    }
+    public bool GetRightKey()
+    {
+        return GetKeyInList(rightKeyList);
+    }
+
 }

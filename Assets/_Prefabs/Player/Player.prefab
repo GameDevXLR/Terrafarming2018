@@ -394,6 +394,8 @@ GameObject:
   - component: {fileID: 114870472816617620}
   - component: {fileID: 114931252757149992}
   - component: {fileID: 114646774024954818}
+  - component: {fileID: 114373974871514938}
+  - component: {fileID: 114904949673939842}
   m_Layer: 12
   m_Name: Player
   m_TagString: Player
@@ -2125,6 +2127,21 @@ MonoBehaviour:
   MinEmmissionPropulseur: 50
   MaxEmmissionPropulseur: 1000
   shadowObject: {fileID: 0}
+--- !u!114 &114373974871514938
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1409990224273386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17928c166df3a2a43a329c9a4e0343a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraController: {fileID: 0}
+  minDistance: 5
+  maxDistance: 25
+  stepZoom: 1
 --- !u!114 &114616674038648388
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2164,16 +2181,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebdb75aa9a1712140ab68f2ecc9e53dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Cc: {fileID: 143587825279029178}
   moveDirection: {x: 0, y: 0, z: 0}
-  speed: 6
+  canMove: 1
   gravity: 10
-  speedRotate: 10
   jumpSpeed: 8
+  speed: 6
+  speedRotate: 10
+  isFlying: 0
   multSpeedFly: 2
   maxHeightReference: 20
-  isFlying: 0
-  canMove: 1
-  Cc: {fileID: 143587825279029178}
 --- !u!114 &114891249705354998
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2189,6 +2206,20 @@ MonoBehaviour:
   layer:
     serializedVersion: 2
     m_Bits: 512
+--- !u!114 &114904949673939842
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1409990224273386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b88a73ec53f64fa4394e84b7dcade1e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationAmountX: 0.5
+  rotationAmountY: 0.5
+  cameraController: {fileID: 0}
 --- !u!114 &114931252757149992
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -1719,9 +1719,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   forwardkey: 122
+  forwardkeyList: 
   backwardKey: 115
+  backwardKeyList: 
   rightKey: 113
+  rightKeyList: 
   leftKey: 100
+  leftKeyList: 
   actionKey: 102
   jumpKey: 32
   actionButtonVisual: {fileID: 0}

@@ -2,28 +2,81 @@
 
 public class BehaviourController : MonoBehaviour
 {
+    #region editor variable
+
+    [Header("Général")]
+    public CharacterController Cc;
     public Vector3 moveDirection = Vector3.zero;
-
-    public float speed = 6f;
-    public float gravity = 20f;
-    public float speedRotate;
-    public float jumpSpeed = 8f;
-    public float multSpeedFly = 2;
-
-    [SerializeField]
-    private float maxHeightReference = 20;
-
-    private float maxHeight = 20;
-    private float minHeight = 0;
-
-    [SerializeField]
-    private bool isFlying;
-
-    private float referenceYFly;
-
     public bool canMove = true;
 
-    public CharacterController Cc;
+    [Header("Deplacement")]
+    public float gravity = 20f;
+    public float jumpSpeed = 8f;
+    public float speed = 6f;
+    public float speedRotate;
+
+    [Header("Fly")]
+    [SerializeField]
+    private bool isFlying;
+    public float multSpeedFly = 2;
+    [SerializeField]
+    private float maxHeightReference = 20;
+    private float referenceYFly;
+    private float maxHeight = 20;    
+    private float minHeight = 0;
+
+
+    #endregion
+
+    #region getter/setter
+    public bool IsFlying
+    {
+        get
+        {
+            return isFlying;
+        }
+
+        set
+        {
+            if (IsFlying != value)
+            {
+                speed = (value) ? speed * multSpeedFly : speed / multSpeedFly;
+            }
+            isFlying = value;
+            float yref = transform.position.y - calculateJumpHeight();
+            referenceYFly = (yref <= MinHeight) ? MinHeight : (yref > MaxHeight) ? MaxHeight : yref;
+        }
+    }
+
+    public float MaxHeight
+    {
+        get
+        {
+            return maxHeight;
+        }
+
+        set
+        {
+            maxHeight = value;
+        }
+    }
+
+    public float MinHeight
+    {
+        get
+        {
+            return minHeight;
+        }
+
+        set
+        {
+            minHeight = value;
+        }
+    }
+
+    #endregion
+
+    #region Monobehaviour Methods
 
     private void Start()
     {
@@ -65,6 +118,9 @@ public class BehaviourController : MonoBehaviour
         Cc.Move(moveDirection * Time.deltaTime);
     }
 
+    #endregion
+
+
     /// <summary>
     /// Calcule le vecteur directionnel
     /// </summary>
@@ -74,6 +130,8 @@ public class BehaviourController : MonoBehaviour
         Vector3 vectDirection = CustomInputManager.instance.GetDirection();
         return vectDirection.normalized * speed;
     }
+
+    #region Gravity
 
     /// <summary>
     /// exerce la gravité sur le personnage
@@ -102,12 +160,9 @@ public class BehaviourController : MonoBehaviour
         }
     }
 
-    public void rotation(Vector3 direction)
-    {
-        Vector3 rotation = new Vector3(direction.x, 0, direction.z);
+    #endregion
 
-        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(rotation.normalized), speedRotate * Time.deltaTime);
-    }
+    #region Jump Methods
 
     public void Jump()
     {
@@ -115,49 +170,18 @@ public class BehaviourController : MonoBehaviour
             moveDirection.y = jumpSpeed;
     }
 
-    public bool IsFlying
+    public float calculateJumpHeight()
     {
-        get
-        {
-            return isFlying;
-        }
-
-        set
-        {
-            if (IsFlying != value)
-            {
-                speed = (value) ? speed * multSpeedFly : speed / multSpeedFly;
-            }
-            isFlying = value;
-            float yref = transform.position.y - calculateJumpHeight();
-            referenceYFly = (yref <= MinHeight) ? MinHeight : (yref > MaxHeight) ? MaxHeight : yref;
-        }
+        return ((jumpSpeed * jumpSpeed) / (2 * gravity) + jumpSpeed * Time.deltaTime) / 2;
     }
 
-    public float MinHeight
+    #endregion
+
+    public void rotation(Vector3 direction)
     {
-        get
-        {
-            return minHeight;
-        }
+        Vector3 rotation = new Vector3(direction.x, 0, direction.z);
 
-        set
-        {
-            minHeight = value;
-        }
-    }
-
-    public float MaxHeight
-    {
-        get
-        {
-            return maxHeight;
-        }
-
-        set
-        {
-            maxHeight = value;
-        }
+        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(rotation.normalized), speedRotate * Time.deltaTime);
     }
 
     public void setMaxAltitudeWithRef(float altitude)
@@ -165,8 +189,4 @@ public class BehaviourController : MonoBehaviour
         MaxHeight = maxHeightReference + altitude;
     }
 
-    public float calculateJumpHeight()
-    {
-        return ((jumpSpeed * jumpSpeed) / (2 * gravity) + jumpSpeed * Time.deltaTime) / 2;
-    }
 }
