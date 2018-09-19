@@ -1,39 +1,20 @@
 fileFormatVersion: 2
-guid: 1092fa22332a62e44bbae474ae7308eb
+guid: 8148b69efb09c1f49b40228b76e3527c
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Hexagoneplain01_Base
-    100004: Hexagoneplain01_Final
-    100006: Hexagoneplain01_middle
     400000: //RootNode
-    400002: Hexagoneplain01_Base
-    400004: Hexagoneplain01_Final
-    400006: Hexagoneplain01_middle
-    2100000: Material.005
-    2100002: Material.004
-    2100004: Material.008
-    2100006: Material.011
-    2100008: Material.010
-    2300000: Hexagoneplain01_Base
-    2300002: Hexagoneplain01_Final
-    2300004: Hexagoneplain01_middle
-    3300000: Hexagoneplain01_Base
-    3300002: Hexagoneplain01_Final
-    3300004: Hexagoneplain01_middle
-    4300000: Hexagoneplain01_Base
-    4300002: Hexagoneplain01_middle
-    4300004: Hexagoneplain01_Final
-    6400000: Hexagoneplain01_Base
-    6400002: Hexagoneplain01_Final
-    6400004: Hexagoneplain01_middle
+    2100000: Material.008
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Minerai.001
   externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -59,9 +40,9 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 100
-    meshCompression: 3
-    addColliders: 1
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -83,7 +64,7 @@ ModelImporter:
     hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 1
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 1

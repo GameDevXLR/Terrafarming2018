@@ -1,0 +1,677 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:7
+-out:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Temp/Assembly-CSharp-firstpass.dll
+-nostdlib
+-unsafe
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.Entities.Properties.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.Properties.Codegen.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.Jobs.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.Jobs.Editor.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.Entities.Editor.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.Properties.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.Collections.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.Burst.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.Properties.Editor.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.Mathematics.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.Entities.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.Transforms.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.Burst.Editor.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.RenderPipelines.Core.IncludePaths.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Runtime.dll
+-r:C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Editor.dll
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.FacebookModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/UnityEditor.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\Managed/Unity.Locator.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.2.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.2.0f2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.2.0f2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.2.0f2/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.2.0f2/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.2.0f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:C:/Users/Roux/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll
+-r:C:/Users/Roux/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.collections@0.0.9-preview.4/System.Runtime.CompilerServices.Unsafe.dll
+-r:C:/Users/Roux/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.1/UnityEngine.Purchasing.dll
+-r:C:/Users/Roux/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.Vectors.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\Microsoft.Win32.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\netstandard.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.AppContext.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Concurrent.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.NonGeneric.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Specialized.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Annotations.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.EventBasedAsync.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.TypeConverter.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Console.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Data.Common.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Contracts.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Debug.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.FileVersionInfo.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Process.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.StackTrace.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TextWriterTraceListener.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Tools.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TraceSource.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Drawing.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Dynamic.Runtime.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Calendars.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Extensions.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Compression.ZipFile.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.DriveInfo.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Watcher.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.IsolatedStorage.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.MemoryMappedFiles.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Pipes.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.UnmanagedMemoryStream.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Expressions.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Parallel.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Queryable.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Http.Rtc.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NameResolution.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NetworkInformation.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Ping.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Requests.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Security.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Sockets.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebHeaderCollection.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.Client.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ObjectModel.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.ILGeneration.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.Lightweight.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Extensions.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Reader.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.ResourceManager.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Writer.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.CompilerServices.VisualC.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Extensions.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Handles.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Numerics.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Formatters.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Json.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Xml.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Claims.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Algorithms.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Csp.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Encoding.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.X509Certificates.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Principal.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.SecureString.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Duplex.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Http.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.NetTcp.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Security.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.Extensions.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.RegularExpressions.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Overlapped.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.Parallel.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Thread.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.ThreadPool.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Timer.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ValueTuple.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.ReaderWriter.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XDocument.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlDocument.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlSerializer.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\Boo.Lang.dll"
+-d:UNITY_5_3_OR_NEWER
+-d:UNITY_5_4_OR_NEWER
+-d:UNITY_5_5_OR_NEWER
+-d:UNITY_5_6_OR_NEWER
+-d:UNITY_2017_1_OR_NEWER
+-d:UNITY_2017_2_OR_NEWER
+-d:UNITY_2017_3_OR_NEWER
+-d:UNITY_2017_4_OR_NEWER
+-d:UNITY_2018_1_OR_NEWER
+-d:UNITY_2018_2_OR_NEWER
+-d:UNITY_2018_2_0
+-d:UNITY_2018_2
+-d:UNITY_2018
+-d:PLATFORM_ARCH_64
+-d:UNITY_64
+-d:ENABLE_AUDIO
+-d:ENABLE_CACHING
+-d:ENABLE_CLOTH
+-d:ENABLE_DUCK_TYPING
+-d:ENABLE_MICROPHONE
+-d:ENABLE_MULTIPLE_DISPLAYS
+-d:ENABLE_PHYSICS
+-d:ENABLE_SPRITES
+-d:ENABLE_GRID
+-d:ENABLE_TILEMAP
+-d:ENABLE_TERRAIN
+-d:ENABLE_TEXTURE_STREAMING
+-d:ENABLE_DIRECTOR
+-d:ENABLE_UNET
+-d:ENABLE_LZMA
+-d:ENABLE_UNITYEVENTS
+-d:ENABLE_WEBCAM
+-d:ENABLE_WWW
+-d:ENABLE_CLOUD_SERVICES_COLLAB
+-d:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-d:ENABLE_CLOUD_SERVICES_ADS
+-d:ENABLE_CLOUD_HUB
+-d:ENABLE_CLOUD_PROJECT_ID
+-d:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-d:ENABLE_CLOUD_SERVICES_UNET
+-d:ENABLE_CLOUD_SERVICES_BUILD
+-d:ENABLE_CLOUD_LICENSE
+-d:ENABLE_EDITOR_HUB
+-d:ENABLE_EDITOR_HUB_LICENSE
+-d:ENABLE_WEBSOCKET_CLIENT
+-d:ENABLE_DIRECTOR_AUDIO
+-d:ENABLE_DIRECTOR_TEXTURE
+-d:ENABLE_TIMELINE
+-d:ENABLE_EDITOR_METRICS
+-d:ENABLE_EDITOR_METRICS_CACHING
+-d:ENABLE_MANAGED_JOBS
+-d:ENABLE_MANAGED_TRANSFORM_JOBS
+-d:ENABLE_MANAGED_ANIMATION_JOBS
+-d:INCLUDE_DYNAMIC_GI
+-d:INCLUDE_GI
+-d:ENABLE_MONO_BDWGC
+-d:PLATFORM_SUPPORTS_MONO
+-d:RENDER_SOFTWARE_CURSOR
+-d:INCLUDE_PUBNUB
+-d:ENABLE_VIDEO
+-d:ENABLE_PACKMAN
+-d:ENABLE_CUSTOM_RENDER_TEXTURE
+-d:ENABLE_LOCALIZATION
+-d:PLATFORM_STANDALONE_WIN
+-d:PLATFORM_STANDALONE
+-d:UNITY_STANDALONE_WIN
+-d:UNITY_STANDALONE
+-d:ENABLE_SUBSTANCE
+-d:ENABLE_RUNTIME_GI
+-d:ENABLE_MOVIES
+-d:ENABLE_NETWORK
+-d:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-d:ENABLE_UNITYWEBREQUEST
+-d:ENABLE_CLOUD_SERVICES
+-d:ENABLE_CLOUD_SERVICES_ANALYTICS
+-d:ENABLE_CLOUD_SERVICES_PURCHASING
+-d:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-d:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-d:ENABLE_EVENT_QUEUE
+-d:ENABLE_CLUSTER_SYNC
+-d:ENABLE_CLUSTERINPUT
+-d:ENABLE_VR
+-d:ENABLE_AR
+-d:ENABLE_WEBSOCKET_HOST
+-d:ENABLE_MONO
+-d:NET_4_6
+-d:ENABLE_PROFILER
+-d:DEBUG
+-d:TRACE
+-d:UNITY_ASSERTIONS
+-d:UNITY_EDITOR
+-d:UNITY_EDITOR_64
+-d:UNITY_EDITOR_WIN
+-d:ENABLE_UNITY_COLLECTIONS_CHECKS
+-d:ENABLE_BURST_AOT
+-d:UNITY_TEAM_LICENSE
+-d:ENABLE_VSTU
+-d:UNITY_POST_PROCESSING_STACK_V2
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Design/Attributes.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Design/PartialEditor/AOTClassesGenerator.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Design/PartialEditor/CompleteContextMenu.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Design/PartialEditor/CustomObjectDrawers.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Design/PartialEditor/DocsByReflection.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Design/PartialEditor/EditorUtils/EditorUtils.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Design/PartialEditor/EditorUtils/EditorUtils_AssetCreation.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Design/PartialEditor/EditorUtils/EditorUtils_BBParameterEditor.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Design/PartialEditor/EditorUtils/EditorUtils_ContextMenus.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Design/PartialEditor/EditorUtils/EditorUtils_GUI.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Design/PartialEditor/EditorUtils/EditorUtils_GUIEditors.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Design/PartialEditor/EditorUtils/EditorUtils_ReorderableList.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Design/PartialEditor/EditorUtils/EditorUtils_TaskFieldEditor.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Design/PartialEditor/GenericInspectorWindow.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Design/PartialEditor/PreferedTypesEditorWindow.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Design/PartialEditor/UndoManager.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Design/PartialEditor/UserTypePrefs.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Other/Enumerations.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Other/EventData.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Other/IScriptableComponent.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Other/OperationTools.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Other/RectUtils.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Other/ReflectionTools.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Other/StringUtils.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/DeserializeFromAttribute.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/fsRecoveryProcessor.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/fsUnityObjectConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Converters/fsArrayConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Converters/fsDateConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Converters/fsDictionaryConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Converters/fsEnumConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Converters/fsForwardConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Converters/fsGuidConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Converters/fsIEnumerableConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Converters/fsKeyValuePairConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Converters/fsNullableConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Converters/fsPrimitiveConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Converters/fsReflectedConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Converters/fsTypeConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Converters/fsWeakReferenceConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Converters/Unity/AnimationCurve_DirectConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Converters/Unity/Bounds_DirectConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Converters/Unity/Gradient_DirectConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Converters/Unity/GUIStyle_DirectConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Converters/Unity/GUIStyleState_DirectConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Converters/Unity/Keyframe_DirectConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Converters/Unity/LayerMask_DirectConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Converters/Unity/Rect_DirectConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Converters/Unity/RectOffset_DirectConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/fsAotCompilationManager.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/fsBaseConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/fsConfig.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/fsContext.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/fsConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/fsConverterRegistrar.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/fsData.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/fsDirectConverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/fsExceptions.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/fsIgnoreAttribute.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/fsISerializationCallbacks.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/fsJsonParser.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/fsJsonPrinter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/fsMemberSerialization.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/fsObjectAttribute.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/fsObjectProcessor.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/fsPropertyAttribute.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/fsResult.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/fsSerializer.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Internal/fsCyclicReferenceManager.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Internal/fsOption.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Internal/fsPortableReflection.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Internal/fsTypeExtensions.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Internal/fsVersionedType.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Internal/fsVersionManager.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Reflection/fsMetaProperty.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Reflection/fsMetaType.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Reflection/fsReflectionUtility.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/Full Serializer/Reflection/fsTypeCache.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/IMissingRecoverable.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/JSONSerializer.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Serialization/SerializedMethodInfo.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Services/MessageRouter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/_Commons/Runtime/Services/MonoManager.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Design/PartialEditor/BlackboardEditor.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Design/PartialEditor/EDITOR_Connection.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Design/PartialEditor/EDITOR_Graph.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Design/PartialEditor/EDITOR_Node.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Design/PartialEditor/EDITOR_Task.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Design/PartialEditor/NCPrefs.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Graphs/CanvasGroup_NC.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Graphs/Connection.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Graphs/Graph.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Graphs/GraphInfoAttribute.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Graphs/GraphOwner.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Graphs/Interfaces.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Graphs/Internal/GraphSerializationData.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Graphs/Internal/MissingConnection.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Graphs/Internal/MissingNode.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Graphs/Internal/VersionUpdateProxyGraph.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Graphs/Node.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/ReflectionWrappers/ReflectedAction.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/ReflectionWrappers/ReflectedFunction.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/ReflectionWrappers/ReflectedMethodWrapper.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Status.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Tasks/ActionList.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Tasks/ActionTask.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Tasks/ConditionList.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Tasks/ConditionTask.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Tasks/Internal/MissingAction.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Tasks/Internal/MissingCondition.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Tasks/ITaskSystem.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Tasks/Task.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Variables/BBParameter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Variables/Blackboard.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Variables/GlobalBlackboard.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Variables/IBlackboard.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Variables/Internal/BBObjectParameter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Variables/Internal/BlackboardSource.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Variables/Internal/MissingBBParameterType.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Variables/Internal/MissingVariableType.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Variables/SyncBlackboard.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Framework/Runtime/Variables/Variable.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/ActionListPlayer/ActionListPlayer.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/BehaviourTree.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/BehaviourTreeOwner.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/BTConnection.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/BTNode.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/BTComposite.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/BTDecorator.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Composites/BinarySelector.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Composites/FlipSelector.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Composites/Parallel.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Composites/PrioritySelector.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Composites/ProbabilitySelector.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Composites/Selector.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Composites/Sequencer.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Composites/StepIterator.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Composites/Switch.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Decorators/ConditionalEvaluator.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Decorators/Filter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Decorators/Guard.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Decorators/Interruptor.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Decorators/Inverter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Decorators/Iterator.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Decorators/Optional.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Decorators/Remapper.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Decorators/Repeater.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Decorators/Setter.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Decorators/Timeout.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Decorators/WaitUntil.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Leafs/ActionNode.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Leafs/ConditionNode.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Leafs/NestedFSM.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Leafs/NodeToggler.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Leafs/RootSwitcher.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/BehaviourTrees/Nodes/Leafs/SubTree.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/DialogueTrees/DialogueTree.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/DialogueTrees/DialogueTreeController.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/DialogueTrees/DTConnection.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/DialogueTrees/DTNode.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/DialogueTrees/ExampleDialogueGUI/DialogueUGUI.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/DialogueTrees/Nodes/ActionNode.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/DialogueTrees/Nodes/ConditionNode.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/DialogueTrees/Nodes/FinishNode.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/DialogueTrees/Nodes/GoToNode.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/DialogueTrees/Nodes/MultipleChoiceNode.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/DialogueTrees/Nodes/MultipleConditionNode.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/DialogueTrees/Nodes/StatementNode.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/DialogueTrees/Nodes/SubDialogueTree.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/DialogueTrees/SubElements/DialogueActor.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/DialogueTrees/SubElements/DialogueEventArguments.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/DialogueTrees/SubElements/IDialogueActor.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/DialogueTrees/SubElements/Statement.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/StateMachines/FSM.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/StateMachines/FSMConnection.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/StateMachines/FSMOwner.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/StateMachines/FSMState.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/StateMachines/Nodes/ActionState.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/StateMachines/Nodes/AnyState.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/StateMachines/Nodes/ConcurrentState.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/StateMachines/Nodes/NestedBTState.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/StateMachines/Nodes/NestedFSMState.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Modules/StateMachines/Nodes/SuperActionState.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Animation (Legacy)/PlayAnimationAdvanced.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Animation (Legacy)/PlayAnimationSimple.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Animator/MecanimPlayAnimation.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Animator/MecanimSetBool.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Animator/MecanimSetFloat.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Animator/MecanimSetIK.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Animator/MecanimSetInt.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Animator/MecanimSetLayerWeight.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Animator/MecanimSetLookAt.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Animator/MecanimSetTrigger.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Audio/PlayAudioAtPosition.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/ComposeVector.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/DecomposeVector.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/EvaluateCurve.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/GetOtherBlackboardVariable.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/GetToString.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/List Specific/AddElementToList.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/List Specific/ClearList.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/List Specific/GetIndexOfElement.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/List Specific/GetListCount.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/List Specific/InsertElementToList.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/List Specific/PickListElement.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/List Specific/PickRandomListElement.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/List Specific/RemoveElementFromList.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/List Specific/SetListElement.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/List Specific/ShuffleList.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/List Specific/SortGameObjectListByDistance.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/LoadBlackboard.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/NormalizeVector.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/SampleCurve.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/SaveBlackboard.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/SetBoolean.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/SetBooleanRandom.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/SetEnum.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/SetFloat.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/SetFloatRandom.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/SetInt.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/SetIntRandom.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/SetOtherBlackboardVariable.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/SetVariable.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Blackboard/SetVector3.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Camera/CameraFader.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Camera/FadeIn.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Camera/FadeOut.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Dialogue/Say.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Dialogue/SayRandom.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Dialogue/StartDialogueTree.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/GameObject/CreateGameObject.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/GameObject/CreatePrimitive.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/GameObject/DestroyGameObject.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/GameObject/FindAllWithName.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/GameObject/FindAllWithTag.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/GameObject/FindClosestWithTag.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/GameObject/FindObjectOfType.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/GameObject/FindObjectsOfType.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/GameObject/FindWithName.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/GameObject/FindWithTag.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/GameObject/GetAllChildGameObjects.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/GameObject/GetCloserGameObjectInList.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/GameObject/GetComponent.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/GameObject/GetDistance.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/GameObject/GetGameObjectPosition.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/GameObject/InstantiateGameObject.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/GameObject/LookAt.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/GameObject/RemoveComponent.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/GameObject/SetObjectActive.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Input/GetInputAxis.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Input/GetMousePosition.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Input/GetMouseScrollDelta.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Input/WaitMousePick.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Input/WaitMousePick2D.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Movement/FindClosestEdge.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Movement/Flee.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Movement/InputMove.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Movement/MoveAway.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Movement/MoveToGameObject.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Movement/MoveToPosition.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Movement/MoveTowards.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Movement/Patrol.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Movement/RotateAway.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Movement/RotateTowards.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Movement/Wander.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Physics/GetLinecastInfo.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Physics/GetLinecastInfo2D.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Physics/GetLinecastInfo2DAll.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Physics/GetOverlapSphereObjects.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/ScriptControl/ExecuteFunction.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/ScriptControl/ExecuteStaticFunction.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/ScriptControl/GetField.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/ScriptControl/GetProperty.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/ScriptControl/ImplementedAction.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/ScriptControl/Multiplatform/ExecuteFunction_Multiplatform.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/ScriptControl/Multiplatform/ExecuteStaticFunction_Multiplatform.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/ScriptControl/Multiplatform/GetProperty_Multiplatform.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/ScriptControl/Multiplatform/ImplementedAction_Multiplatform.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/ScriptControl/Multiplatform/SetProperty_Multiplatform.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/ScriptControl/SendMessage.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/ScriptControl/SendMessageToType.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/ScriptControl/SetField.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/ScriptControl/SetProperty.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Utility/DebugBeep.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Utility/DebugDrawLine.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Utility/DebugLogText.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Utility/DebugLogVariable.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Utility/GraphOwnerControl.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Utility/RunForever.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Utility/SendEvent.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Utility/SendEventToObjects.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Utility/ShoutEvent.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Utility/SwitchBehaviour.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Utility/TriggerBoolean.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Actions/Utility/Wait.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/Animator/MecanimCheckBool.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/Animator/MecanimCheckFloat.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/Animator/MecanimCheckInt.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/Animator/MecanimIsInTransition.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/Blackboard/CheckBoolean.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/Blackboard/CheckEnum.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/Blackboard/CheckFloat.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/Blackboard/CheckInt.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/Blackboard/CheckString.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/Blackboard/CheckUnityObject.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/Blackboard/CheckVariable.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/Blackboard/ListContainsElement.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/Blackboard/ListIsEmpty.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/Blackboard/StringContains.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/GameObject/CanSeeTarget.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/GameObject/CheckDistanceToGameObject.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/GameObject/CheckLOS.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/GameObject/CheckLOS2D.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/GameObject/CheckSpeed.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/GameObject/HasComponent.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/GameObject/IsActive.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/GameObject/IsInFront.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/Input/CheckButtonInput.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/Input/CheckKeyboardInput.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/Input/CheckMousePick.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/Input/CheckMousePick2D.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/Movement/PathExists.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/ScriptControl/CheckCSharpEvent.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/ScriptControl/CheckField.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/ScriptControl/CheckFunction.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/ScriptControl/CheckProperty.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/ScriptControl/CheckStaticCSharpEvent.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/ScriptControl/Multiplatform/CheckFunction_Multiplatform.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/ScriptControl/Multiplatform/CheckProperty_Multiplatform.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/SystemEvents/CheckCollision.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/SystemEvents/CheckCollision2D.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/SystemEvents/CheckMouse.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/SystemEvents/CheckMouse2D.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/SystemEvents/CheckMouseClick.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/SystemEvents/CheckMouseClick2D.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/SystemEvents/CheckTrigger.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/SystemEvents/CheckTrigger2D.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/UGUI/ButtonClicked.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/UGUI/InterceptEvent.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/Utility/CheckEvent.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/Utility/CheckEventValue.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/Utility/DebugCondition.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/Utility/Probability.cs"
+-i:"C:/UnityStuff/_Unity2018Stuffs/Terrafarming2018/Terrafarming/Assets/Standard Assets/Plugins/+UtilitairesEditeur/ParadoxNotion/NodeCanvas/Tasks/Conditions/Utility/Timeout.cs"
+-v:0
