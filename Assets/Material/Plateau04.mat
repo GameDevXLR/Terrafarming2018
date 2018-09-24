@@ -26,14 +26,6 @@ Material:
         m_Texture: {fileID: 2800000, guid: 318d5c261b6a4487a97b0933da51838a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - Texture2D_D140FAD3:
-        m_Texture: {fileID: 2800000, guid: 8320987374e1fb544879fc552b145948, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - Texture2D_D3555639:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - Texture2D_E6E86523:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -98,10 +90,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Ramp:
-        m_Texture: {fileID: 2800000, guid: 86d8e13be1b097a48960826920c4c440, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _SpecularColorMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -129,10 +117,7 @@ Material:
     m_Floats:
     - Vector1_3038D9A7: 0
     - Vector1_57B993E8: 31.68
-    - Vector1_6539A3DC: 0
     - Vector1_9B42B35F: 3.06
-    - Vector1_ADE0D613: 0
-    - Vector1_ADE9CA7D: 5
     - _AORemapMax: 1
     - _AORemapMin: 0
     - _ATDistance: 1
@@ -243,26 +228,20 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Color_29C75A16: {r: 0.504717, g: 0.5435626, b: 1, a: 1}
-    - Color_490129E6: {r: 1, g: 1, b: 1, a: 0}
-    - Color_6172FF82: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
     - Color_7E9A8E6C: {r: 1, g: 1, b: 1, a: 0}
     - Color_86CBF5FB: {r: 0.864219, g: 0.85845643, b: 0.8519895, a: 0}
     - Color_86E697DA: {r: 0.70980394, g: 0.7411765, b: 0.7254902, a: 0}
     - Color_92832658: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 0}
-    - Color_99889D8A: {r: 0.764151, g: 0.7550011, b: 0.7533375, a: 1}
     - Vector2_294B0966: {r: 0.1, g: 0.1, b: 0, a: 0}
     - Vector2_8B223909: {r: 2, g: 1, b: 0, a: 0}
-    - Vector3_B5622C5A: {r: 0.5, g: 0.5, b: 0, a: 0}
     - Vector3_F39013E: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
-    - _HColor: {r: 0.6, g: 0.6, b: 0.6, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
-    - _SColor: {r: 0.29999998, g: 0.29999998, b: 0.29999998, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}

@@ -122,44 +122,11 @@ ModelImporter:
     4300040: Plane.001
     4300042: Plateau02_Lod2
     4300044: Circle.009
-    6400000: Circle.007
-    6400002: Circle.009
-    6400004: Circle.011
-    6400006: Circle.012
-    6400008: Circle.017
-    6400010: Circle.019
-    6400012: Circle.020
-    6400014: Circle.032
-    6400016: Circle.033
-    6400018: Circle.034
-    6400020: Circle.035
-    6400022: Circle.036
-    6400024: Circle.037
-    6400026: Circle.038
-    6400028: Circle.039
-    6400030: Circle.040
-    6400032: Circle.041
-    6400034: Circle.042
-    6400036: Circle.043
-    6400038: Circle.044
-    6400040: Plane.001
-    6400042: Plateau.001
-    6400044: Plateau02_Lod2
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: No Name
-    second: {fileID: 2100000, guid: 2762ada7f65569148af0b3fc4b81887b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Terrain
-    second: {fileID: 2100000, guid: a9e53cef55e96364cbd7d911976654a6, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
-    materialName: 1
-    materialSearch: 0
+    materialName: 0
+    materialSearch: 1
     materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
@@ -188,7 +155,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
