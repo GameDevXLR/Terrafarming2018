@@ -5,23 +5,69 @@ public class ResourcesManager : MonoBehaviour
 {
     public static ResourcesManager instance;
 
+    #region resource variables
+
+    #region energy
+    [SerializeField, HideInInspector]
+    private int energy, maxEnergy;
+    #endregion
+
     public int rawOre;
     public int essence;
     public int flowerSeed;
     public int bushSeed;
     public int treeSeed;
 
+   
+    #endregion
+
     public Text rawOreDisplay;
     public Text essenceDisplay;
     public Text flowerSeedDisplay;
     public Text bushSeedDisplay;
     public Text treeSeedDisplay;
+    public Slider energyBar;
+
+    
 
     private void Awake()
     {
         if (instance == null)
         {
             instance = this;
+            energyBar.value = energy;
+        }
+    }
+    private void Update()
+    {
+        Energy = energy;
+    }
+
+    public int Energy {
+        get => energy;
+        set {
+            energy = value;
+            if (energyBar)
+            {
+                energyBar.value = energy;
+            }
+
+            if (energy < 0) Energy = 0;
+            if (energy > maxEnergy) Energy = maxEnergy;
+        }
+    }
+
+    public int MaxEnergy
+    {
+        get => maxEnergy;
+        set
+        {
+            maxEnergy = value;
+            energyBar.maxValue = maxEnergy;
+            if(energy > maxEnergy)
+            {
+                Energy = maxEnergy;
+            }
         }
     }
 
@@ -174,6 +220,8 @@ public class ResourcesManager : MonoBehaviour
                 break;
         }
     }
+
+
 
     //prend en compte le biome de la machine ^^
     //	public void setRessourceQuantity(ressourceEnum ress, int qty, BiomeEnum biome)

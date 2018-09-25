@@ -1787,11 +1787,13 @@ MonoBehaviour:
   flowerSeed: 0
   bushSeed: 0
   treeSeed: 0
+  energy: 0
   rawOreDisplay: {fileID: 0}
   essenceDisplay: {fileID: 0}
   flowerSeedDisplay: {fileID: 0}
   bushSeedDisplay: {fileID: 0}
   treeSeedDisplay: {fileID: 0}
+  energyBar: {fileID: 0}
 --- !u!114 &114511570386657144
 MonoBehaviour:
   m_ObjectHideFlags: 0

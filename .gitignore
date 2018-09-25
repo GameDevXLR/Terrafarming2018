@@ -505,3 +505,5 @@ Logs/*
 /Logs/IncrementalCompiler/Unity.Transforms.Hybrid.rsp
 /Logs/IncrementalCompiler/Unity.Transforms.rsp
 /Logs/IncrementalCompiler/UnityEditor.StandardEvents.rsp
+/Logs/IncrementalCompiler/Assembly-CSharp.rsp
+/Logs/IncrementalCompiler/Assembly-CSharp.rsp
