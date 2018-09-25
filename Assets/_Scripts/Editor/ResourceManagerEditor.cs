@@ -2,7 +2,7 @@
 using UnityEditor;
 
 using UnityEditor.SceneManagement;
-
+using System;
 
 [CustomEditor(typeof(ResourcesManager))]
 public class ResourceManagerEditor : Editor {
@@ -25,10 +25,24 @@ public class ResourceManagerEditor : Editor {
 
         serializedObject.Update();
         res.Energy = EditorGUILayout.IntSlider(energyProp.intValue, 0, res.MaxEnergy);
-        if (!energyProp.hasMultipleDifferentValues)
-            ProgressBar(energyProp.intValue / res.MaxEnergy, "Energy");
+        try
+        {
+            ProgressBar((float)res.Energy / res.MaxEnergy, "Energy");
 
-        res.MaxEnergy = EditorGUILayout.IntField("Experience", res.MaxEnergy);
+        }
+        catch (DivideByZeroException)
+        {
+            Debug.Log("Ressource Manager Editor ==>> MaxEnergie es à 0");
+        }
+        catch(Exception e)
+        {
+            Debug.Log("Ressource Manager Editor ==>>  message d'erreur " + e.Message);
+        }
+
+        
+
+
+        res.MaxEnergy = EditorGUILayout.IntField("Max Energy", res.MaxEnergy);
 
 
         // Apply changes to the serializedProperty - always do this in the end of OnInspectorGUI.

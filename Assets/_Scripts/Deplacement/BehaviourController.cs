@@ -26,6 +26,8 @@ public class BehaviourController : MonoBehaviour
     private float minHeight = 0;
     public float flotaison = 0;
 
+    public int consommation;
+
 
     #endregion
 
@@ -197,5 +199,8 @@ public class BehaviourController : MonoBehaviour
     {
         MaxHeight = maxHeightReference + altitude;
     }
+
+
+
 
 }

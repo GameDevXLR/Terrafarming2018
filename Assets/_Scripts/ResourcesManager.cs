@@ -63,11 +63,10 @@ public class ResourcesManager : MonoBehaviour
         set
         {
             maxEnergy = value;
-            energyBar.maxValue = maxEnergy;
+            if(energyBar)
+                energyBar.maxValue = maxEnergy;
             if(energy > maxEnergy)
-            {
                 Energy = maxEnergy;
-            }
         }
     }
 

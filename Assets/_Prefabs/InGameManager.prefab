@@ -1782,12 +1782,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddd75376bbd8fb54baa4b6fee691c1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  energy: 0
+  maxEnergy: 0
   rawOre: 100
   essence: 10
   flowerSeed: 0
   bushSeed: 0
   treeSeed: 0
-  energy: 0
   rawOreDisplay: {fileID: 0}
   essenceDisplay: {fileID: 0}
   flowerSeedDisplay: {fileID: 0}

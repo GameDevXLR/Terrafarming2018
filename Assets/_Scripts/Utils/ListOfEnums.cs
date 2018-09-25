@@ -1,4 +1,6 @@
-﻿public enum PlantTypeEnum
+﻿using System;
+
+public enum PlantTypeEnum
 {
     none,
     flower,
@@ -52,4 +54,11 @@ public enum DayStates
 {
     Day,
     Night
+}
+
+public enum TerrainEnum
+{
+    water = 1 << 0,
+    fire = 1 << 1,
+    acid = 1 << 2,
 }
