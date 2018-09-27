@@ -9,6 +9,8 @@ public class JetPackPlayer : MonoBehaviour {
     [SerializeField, HideInInspector]
     private TerrainEnum terrains;
 
+    public int consommationJump, consommationVol;
+
     public TerrainEnum Terrains { get => terrains; set => terrains = value; }
 
 

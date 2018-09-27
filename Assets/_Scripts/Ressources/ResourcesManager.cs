@@ -7,10 +7,6 @@ public class ResourcesManager : MonoBehaviour
 
     #region resource variables
 
-    #region energy
-    [SerializeField, HideInInspector]
-    private int energy, maxEnergy;
-    #endregion
 
     public int rawOre;
     public int essence;
@@ -26,7 +22,6 @@ public class ResourcesManager : MonoBehaviour
     public Text flowerSeedDisplay;
     public Text bushSeedDisplay;
     public Text treeSeedDisplay;
-    public Slider energyBar;
 
     
 
@@ -35,41 +30,9 @@ public class ResourcesManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            energyBar.value = energy;
         }
     }
-    private void Update()
-    {
-        Energy = energy;
-    }
-
-    public int Energy {
-        get => energy;
-        set {
-            energy = value;
-            if (energyBar)
-            {
-                energyBar.value = energy;
-            }
-
-            if (energy < 0) Energy = 0;
-            if (energy > maxEnergy) Energy = maxEnergy;
-        }
-    }
-
-    public int MaxEnergy
-    {
-        get => maxEnergy;
-        set
-        {
-            maxEnergy = value;
-            if(energyBar)
-                energyBar.maxValue = maxEnergy;
-            if(energy > maxEnergy)
-                Energy = maxEnergy;
-        }
-    }
-
+    
     public void setRawOre(int qty)
     {
         rawOre = qty;

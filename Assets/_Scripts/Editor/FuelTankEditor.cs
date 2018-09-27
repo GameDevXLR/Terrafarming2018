@@ -4,30 +4,30 @@ using UnityEditor;
 using UnityEditor.SceneManagement;
 using System;
 
-[CustomEditor(typeof(ResourcesManager))]
-public class ResourceManagerEditor : Editor {
+[CustomEditor(typeof(FuelTank))]
+public class FuelTankEditor : Editor {
 
 
     SerializedProperty energyProp;
 
-    ResourcesManager res;
+    FuelTank cible;
 
 
 
     private void OnEnable()
     {
-        res = (ResourcesManager)target;
+        cible = (FuelTank)target;
         energyProp = serializedObject.FindProperty("energy");
     }
 
     public override void OnInspectorGUI()
     {
-
+        DrawDefaultInspector();
         serializedObject.Update();
-        res.Energy = EditorGUILayout.IntSlider(energyProp.intValue, 0, res.MaxEnergy);
+        cible.Energy = EditorGUILayout.IntSlider(energyProp.intValue, 0, cible.MaxEnergy);
         try
         {
-            ProgressBar((float)res.Energy / res.MaxEnergy, "Energy");
+            ProgressBar((float)cible.Energy / cible.MaxEnergy, "Energy");
 
         }
         catch (DivideByZeroException)
@@ -39,15 +39,15 @@ public class ResourceManagerEditor : Editor {
             Debug.Log("Ressource Manager Editor ==>>  message d'erreur " + e.Message);
         }
 
-        
 
 
-        res.MaxEnergy = EditorGUILayout.IntField("Max Energy", res.MaxEnergy);
+
+        cible.MaxEnergy = EditorGUILayout.IntField("Max Energy", cible.MaxEnergy);
 
 
         // Apply changes to the serializedProperty - always do this in the end of OnInspectorGUI.
         serializedObject.ApplyModifiedProperties();
-        DrawDefaultInspector();
+        
     }
 
 
