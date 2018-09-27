@@ -39,11 +39,7 @@ public class FuelTankEditor : Editor {
             Debug.Log("Ressource Manager Editor ==>>  message d'erreur " + e.Message);
         }
 
-
-
-
         cible.MaxEnergy = EditorGUILayout.IntField("Max Energy", cible.MaxEnergy);
-
 
         // Apply changes to the serializedProperty - always do this in the end of OnInspectorGUI.
         serializedObject.ApplyModifiedProperties();

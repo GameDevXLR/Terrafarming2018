@@ -180,7 +180,7 @@ MonoBehaviour:
     min: 0
   hdriSky:
     m_OverrideState: 1
-    m_Value: {fileID: 8900000, guid: d1ee7a9fb502c424c99f96204921d0bc, type: 3}
+    m_Value: {fileID: 8900000, guid: 2de07e29f7482f9489e15b0c70ac3d2d, type: 3}
 --- !u!114 &114899694904133614
 MonoBehaviour:
   m_ObjectHideFlags: 0

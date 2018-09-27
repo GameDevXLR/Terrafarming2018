@@ -7,10 +7,12 @@ public class FuelTank : MonoBehaviour {
 
     [SerializeField, HideInInspector]
     private int energy, maxEnergy;
-
     public Slider energyBar;
 
-    public int currentConsommation = 0;
+    private int currentConsommation = 0;
+    public bool isConsoRunning = false;
+
+    private List<IConsommation> ObjsUsingFuel;
 
     public int Energy
     {
@@ -22,9 +24,7 @@ public class FuelTank : MonoBehaviour {
             {
                 energyBar.value = energy;
             }
-
-            if (energy < 0) Energy = 0;
-            if (energy > maxEnergy) Energy = maxEnergy;
+            energy = (energy < 0) ? 0 : (energy > maxEnergy) ? maxEnergy : energy;
         }
     }
 
@@ -41,14 +41,76 @@ public class FuelTank : MonoBehaviour {
         }
     }
 
+    public void Replenish()
+    {
+        Energy = MaxEnergy;
+    }
+
+    public int CurrentConsommation {
+        get => currentConsommation;
+        set
+        {   
+            currentConsommation = (value < 0) ? 0 : value;
+        }
+    }
+
+    public void Conso(IConsommation obj)
+    {
+        if(Energy - obj.ConsoBoost > 0)
+        {
+            Energy -= obj.ConsoBoost;
+        }
+        FailConso(obj);
+    }
+
+    public void StartConso(IConsommation obj)
+    {
+        if(Energy - CurrentConsommation + obj.Conso >= 0)
+        {
+            CurrentConsommation += obj.Conso;
+            if (!isConsoRunning)
+            {
+                StartCoroutine(ConsommationCoroutine());
+            }
+            if(!ObjsUsingFuel.Contains(obj))
+                ObjsUsingFuel.Add(obj);
+        }
+        FailConso(obj);
+    }
+
+    public void StopConso(IConsommation obj)
+    {
+        CurrentConsommation -= obj.Conso;
+        ObjsUsingFuel.Remove(obj);
+    }
+
+
+    public void FailContinueAllConso()
+    {
+        foreach(var obj in ObjsUsingFuel)
+        {
+            obj.FailConsommation();
+        }
+    }
+
+    public void FailConso(IConsommation obj)
+    {
+        obj.FailConsommation();
+    }
 
     IEnumerator ConsommationCoroutine()
     {
-        while (energy-currentConsommation >= 0)
+        while (energy-CurrentConsommation >= 0 && currentConsommation > 0)
         {
-            Energy -= currentConsommation;
+            Energy -= CurrentConsommation;
             yield return new WaitForSeconds(1);
-
         }
+
+        if (energy - CurrentConsommation >= 0)
+            FailContinueAllConso();
+
+        isConsoRunning = false;
+
+
     }
 }
