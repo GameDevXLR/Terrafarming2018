@@ -6,29 +6,37 @@ public class PlayerLimiteNEOS : MonoBehaviour
 
     private void Update()
     {
-        Vector3 pos = transform.position;
-        if (transform.position.x > limiteFly.LimiteEst)
+        if (limiteFly)
         {
-            pos.x = limiteFly.LimiteOuest;
-        }
-        else if (transform.position.x < limiteFly.LimiteOuest)
-        {
-            pos.x = limiteFly.LimiteEst;
-        }
-        if (transform.position.z > limiteFly.LimiteNord)
-        {
-            pos.z = limiteFly.LimiteSud;
-        }
-        else if (transform.position.z < limiteFly.LimiteSud)
-        {
-            pos.z = limiteFly.LimiteNord;
-        }
+            Vector3 pos = transform.position;
+            if (transform.position.x > limiteFly.LimiteEst)
+            {
+                pos.x = limiteFly.LimiteOuest;
+            }
+            else if (transform.position.x < limiteFly.LimiteOuest)
+            {
+                pos.x = limiteFly.LimiteEst;
+            }
+            if (transform.position.z > limiteFly.LimiteNord)
+            {
+                pos.z = limiteFly.LimiteSud;
+            }
+            else if (transform.position.z < limiteFly.LimiteSud)
+            {
+                pos.z = limiteFly.LimiteNord;
+            }
 
-        if (transform.position != pos)
-        {
-            transform.position = pos;
-            // let to move the cam directly at the player position (without smooth)
-            InGameManager.instance.cameraControllerPlayer.moveCam();  
+            if (transform.position != pos)
+            {
+                transform.position = pos;
+                // let to move the cam directly at the player position (without smooth)
+                InGameManager.instance.cameraControllerPlayer.moveCam();
+            }
         }
+        else
+        {
+            enabled = false;
+        }
+        
     }
 }

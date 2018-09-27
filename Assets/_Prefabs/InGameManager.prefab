@@ -1782,8 +1782,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddd75376bbd8fb54baa4b6fee691c1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  energy: 0
-  maxEnergy: 0
   rawOre: 100
   essence: 10
   flowerSeed: 0
@@ -1794,7 +1792,6 @@ MonoBehaviour:
   flowerSeedDisplay: {fileID: 0}
   bushSeedDisplay: {fileID: 0}
   treeSeedDisplay: {fileID: 0}
-  energyBar: {fileID: 0}
 --- !u!114 &114511570386657144
 MonoBehaviour:
   m_ObjectHideFlags: 0
