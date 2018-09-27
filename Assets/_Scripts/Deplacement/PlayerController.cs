@@ -21,6 +21,8 @@ public class PlayerController : MonoBehaviour
 
     public GameObject shadowObject;
 
+
+
     #endregion variables editor
 
     private void Start()
@@ -51,7 +53,7 @@ public class PlayerController : MonoBehaviour
                     aterrisageParticle.gameObject.transform.position = transform.position;
                     aterrisageParticle.Clear();
                     aterrisageParticle.Play();
-                    SetAltitudeMaxFromGroundPos(0);
+                    //SetAltitudeMaxFromGroundPos(0);
                     propulseurParticle.StopPropulseur();
                     shadowObject.SetActive(false);
                 }

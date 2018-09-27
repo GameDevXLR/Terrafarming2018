@@ -22,12 +22,59 @@ public class BehaviourController : MonoBehaviour
     [SerializeField]
     private float maxHeightReference = 20;
     private float referenceYFly;
+    [SerializeField]
     private float maxHeight = 20;    
     private float minHeight = 0;
     public float flotaison = 0;
+    
 
-    public int consommation;
 
+    #endregion
+
+
+    #region Monobehaviour Methods
+
+    private void Start()
+    {
+        if (!CustomInputManager.instance)
+        {
+            Debug.Log("You don't have a CustomInputManager");
+        }
+        if (Cc == null)
+        {
+            Debug.Log("Where is your CharactereController?");
+        }
+    }
+
+    private void Update()
+    {
+        Debug.Log(transform.position.y < MaxHeight);
+        Debug.Log(MaxHeight);
+        float y = moveDirection.y;
+        if (canMove)
+            moveDirection = CalculateMoveDirection();
+        else
+        {
+            moveDirection = Vector3.zero;
+        }
+        moveDirection.y = y;
+        if (isFlying)
+        {
+            if (transform.position.y <= referenceYFly)
+                Jump(flotaison);
+            Gravity((gravity / 2) * flotaison);
+        }
+        else
+        {
+            Gravity();
+        }
+
+        if (moveDirection.x != 0 || moveDirection.z != 0)
+        {
+            rotation(moveDirection);
+        }
+        Cc.Move(moveDirection * Time.deltaTime);
+    }
 
     #endregion
 
@@ -81,51 +128,6 @@ public class BehaviourController : MonoBehaviour
 
     #endregion
 
-    #region Monobehaviour Methods
-
-    private void Start()
-    {
-        if (!CustomInputManager.instance)
-        {
-            Debug.Log("You don't have a CustomInputManager");
-        }
-        if (Cc == null)
-        {
-            Debug.Log("Where is your CharactereController?");
-        }
-    }
-
-    private void Update()
-    {
-        float y = moveDirection.y;
-        if (canMove)
-            moveDirection = CalculateMoveDirection();
-        else
-        {
-            moveDirection = Vector3.zero;
-        }
-        moveDirection.y = y;
-        if (isFlying)
-        {
-            if (transform.position.y <= referenceYFly)
-                Jump(flotaison);
-            Gravity((gravity / 2) * flotaison);
-        }
-        else
-        {
-            Gravity();
-        }
-
-        if (moveDirection.x != 0 || moveDirection.z != 0)
-        {
-            rotation(moveDirection);
-        }
-        Cc.Move(moveDirection * Time.deltaTime);
-    }
-
-    #endregion
-
-
     /// <summary>
     /// Calcule le vecteur directionnel
     /// </summary>
@@ -171,6 +173,7 @@ public class BehaviourController : MonoBehaviour
 
     public void Jump()
     {
+        
         if (transform.position.y < MaxHeight)
             moveDirection.y = jumpSpeed;
     }

@@ -29,7 +29,7 @@ public class DetectHeigthPlayer : MonoBehaviour
             {
                 controller.IsGrounded = true;
 
-                controller.SetAltitudeMaxFromGroundPos(0);
+                //controller.SetAltitudeMaxFromGroundPos(0);
             }
             else
             {

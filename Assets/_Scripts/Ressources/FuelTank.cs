@@ -10,7 +10,7 @@ public class FuelTank : MonoBehaviour {
     public Slider energyBar;
 
     private int currentConsommation = 0;
-    public bool isConsoRunning = false;
+    private bool isConsoRunning = false;
 
     private List<IConsommation> ObjsUsingFuel;
 

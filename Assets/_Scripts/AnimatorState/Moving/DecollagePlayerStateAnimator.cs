@@ -9,4 +9,9 @@ public class DecollagePlayerStateAnimator : IdlePlayerStateAnimator
             SwitchAnime(AnimeParameters.isjumping, false);
         }
     }
+
+    public override void OnStateUpdate(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
+    {
+        
+    }
 }
