@@ -12,7 +12,9 @@ public class FuelTank : MonoBehaviour {
     private int currentConsommation = 0;
     private bool isConsoRunning = false;
 
-    private List<IConsommation> ObjsUsingFuel;
+    private List<IConsommation> ObjsUsingFuel = new List<IConsommation>();
+
+    #region setter / getter
 
     public int Energy
     {
@@ -41,29 +43,39 @@ public class FuelTank : MonoBehaviour {
         }
     }
 
+
+    public int CurrentConsommation
+    {
+        get => currentConsommation;
+        set
+        {
+            currentConsommation = (value < 0) ? 0 : value;
+        }
+    }
+
+    public bool HaveEnougthEnergy(int conso)
+    {
+        return Energy - conso >= 0;
+    }
+
+    #endregion
+
     public void Replenish()
     {
         Energy = MaxEnergy;
     }
 
-    public int CurrentConsommation {
-        get => currentConsommation;
-        set
-        {   
-            currentConsommation = (value < 0) ? 0 : value;
-        }
-    }
-
-    public void Conso(IConsommation obj)
+    public bool Conso(IConsommation obj)
     {
-        if(Energy - obj.ConsoBoost > 0)
+        if(Energy - obj.ConsoBoost >= 0)
         {
             Energy -= obj.ConsoBoost;
+            return true;
         }
-        FailConso(obj);
+        return false;
     }
 
-    public void StartConso(IConsommation obj)
+    public bool StartConso(IConsommation obj)
     {
         if(Energy - CurrentConsommation + obj.Conso >= 0)
         {
@@ -74,8 +86,9 @@ public class FuelTank : MonoBehaviour {
             }
             if(!ObjsUsingFuel.Contains(obj))
                 ObjsUsingFuel.Add(obj);
+            return true;
         }
-        FailConso(obj);
+        return false;
     }
 
     public void StopConso(IConsommation obj)
@@ -100,7 +113,9 @@ public class FuelTank : MonoBehaviour {
 
     IEnumerator ConsommationCoroutine()
     {
-        while (energy-CurrentConsommation >= 0 && currentConsommation > 0)
+        Debug.Log("coucou");
+        isConsoRunning = true;
+        while (isConsoRunning && energy-CurrentConsommation >= 0 && currentConsommation > 0)
         {
             Energy -= CurrentConsommation;
             yield return new WaitForSeconds(1);

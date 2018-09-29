@@ -3,8 +3,8 @@
 public interface IConsommation  {
     int Conso { get; }
     int ConsoBoost { get; }
-    void BoostConso();
-    void StartConsommation();
+    bool BoostConso();
+    bool StartConsommation();
     void StopConsommation();
     void FailConsommation();
 }

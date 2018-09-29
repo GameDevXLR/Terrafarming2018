@@ -26,6 +26,7 @@ public class BehaviourController : MonoBehaviour
     private float maxHeight = 20;    
     private float minHeight = 0;
     public float flotaison = 0;
+
     
 
 
@@ -48,8 +49,6 @@ public class BehaviourController : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(transform.position.y < MaxHeight);
-        Debug.Log(MaxHeight);
         float y = moveDirection.y;
         if (canMove)
             moveDirection = CalculateMoveDirection();
@@ -58,6 +57,7 @@ public class BehaviourController : MonoBehaviour
             moveDirection = Vector3.zero;
         }
         moveDirection.y = y;
+
         if (isFlying)
         {
             if (transform.position.y <= referenceYFly)
@@ -74,6 +74,10 @@ public class BehaviourController : MonoBehaviour
             rotation(moveDirection);
         }
         Cc.Move(moveDirection * Time.deltaTime);
+        if(Cc.velocity.y == 0)
+        {
+            moveDirection.y = 0;
+        }
     }
 
     #endregion
@@ -149,7 +153,7 @@ public class BehaviourController : MonoBehaviour
         {
             moveDirection.y -= gravity * Time.deltaTime;
         }
-        else
+        else if (Cc.velocity.y < 0)
         {
             moveDirection.y -= gravity * 2 * Time.deltaTime;
         }
@@ -173,11 +177,34 @@ public class BehaviourController : MonoBehaviour
 
     public void Jump()
     {
-        
         if (transform.position.y < MaxHeight)
             moveDirection.y = jumpSpeed;
     }
 
+    /// <summary>
+    /// Jump with an additional force
+    /// </summary>
+    /// <param name="jumpForce"></param>
+    public void JumpWithAdditionalForce(float jumpForce)
+    {
+        if (transform.position.y < MaxHeight)
+            moveDirection.y = jumpForce + jumpSpeed;
+    }
+
+    /// <summary>
+    /// use the jumpForce to make the jump
+    /// </summary>
+    /// <param name="jumpForce"></param>
+    public void JumpWith(float jumpForce)
+    {
+        if (transform.position.y < MaxHeight)
+            moveDirection.y = jumpForce;
+    }
+
+    /// <summary>
+    /// mutlity the jumpSpeed by potentiel
+    /// </summary>
+    /// <param name="potentiel"></param>
     public void Jump(float potentiel)
     {
         if (transform.position.y < MaxHeight)

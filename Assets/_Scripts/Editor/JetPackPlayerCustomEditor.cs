@@ -4,20 +4,20 @@ using UnityEngine;
 using UnityEditor;
 using System;
 
-[CustomEditor(typeof(JetPackPlayer))]
+[CustomEditor(typeof(JetPackSO))]
 public class JetPackPlayerCustomEditor : Editor
 {
 
     SerializedProperty terrainsProperty;
 
-    JetPackPlayer res;
+    JetPackSO res;
 
     TerrainEnum terrains;
 
 
     private void OnEnable()
     {
-        res = (JetPackPlayer)target;
+        res = (JetPackSO)target;
         terrainsProperty = serializedObject.FindProperty("terrains");
     }
 
@@ -27,7 +27,7 @@ public class JetPackPlayerCustomEditor : Editor
         serializedObject.Update();
         //terrains = (TerrainEnum)EditorGUILayout.EnumMaskField("Terrains", enumValue: terrains);
         terrains = (TerrainEnum)EditorGUILayout.EnumFlagsField(terrains);
-        res.Terrains = terrains;
+        res.Terrain = terrains;
         serializedObject.ApplyModifiedProperties();
         DrawDefaultInspector();
     }

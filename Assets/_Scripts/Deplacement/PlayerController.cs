@@ -21,7 +21,11 @@ public class PlayerController : MonoBehaviour
 
     public GameObject shadowObject;
 
+    [SerializeField]
+    private JetPackPlayer jetPack;
 
+
+    public bool usingJetPack = false;
 
     #endregion variables editor
 
@@ -31,6 +35,10 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
         SwitchAnime(AnimeParameters.islanding, false);
     }
+
+    #region getter/setter
+    public JetPackPlayer JetPack { get => jetPack;  }
+    #endregion
 
     public bool IsGrounded
     {
@@ -65,6 +73,8 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    
+
     public virtual void SwitchAnime(AnimeParameters anime, bool activate)
     {
         anim.SetBool(anime.ToString(), activate);
@@ -90,5 +100,35 @@ public class PlayerController : MonoBehaviour
     {
         behaviour.Jump();
         propulseurParticle.Burst();
+    }
+
+    public void JumpWithJetPack()
+    {
+        if (JetPack.BoostConso())
+        {
+            behaviour.JumpWithAdditionalForce(JetPack.JumpForce);
+            propulseurParticle.Burst();
+        }
+    }
+
+    public void BoostFromJetPack()
+    {
+        if (JetPack.BoostConso())
+        {
+            behaviour.JumpWith(JetPack.JumpForce);
+            propulseurParticle.Burst();
+        }
+    }
+
+    public void Fly()
+    {
+        if (JetPack.StartConsommation())
+            behaviour.IsFlying = true;
+    }
+
+    public void StopFlying()
+    {
+        JetPack.StopConsommation();
+        behaviour.IsFlying = false;
     }
 }

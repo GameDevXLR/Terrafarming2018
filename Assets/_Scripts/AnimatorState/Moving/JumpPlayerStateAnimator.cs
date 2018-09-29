@@ -5,7 +5,20 @@ public class JumpPlayerStateAnimator : PlayerStateAnimator
     public override void OnStateEnter(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
     {
         base.OnStateEnter(animator, animatorStateInfo, layerIndex);
-        controller.Jump();
+        
+        if (controller.usingJetPack)
+        {
+            controller.JumpWithJetPack();
+            controller.usingJetPack = false;
+        }
+        else if (!controller.IsGrounded)
+        {
+            controller.BoostFromJetPack();
+        }
+        else
+        {
+            controller.Jump();
+        }
     }
 
     public override void OnStateUpdate(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
@@ -14,7 +27,7 @@ public class JumpPlayerStateAnimator : PlayerStateAnimator
         {
             if (Input.GetKeyDown(CustomInputManager.instance.jumpKey))
             {
-                controller.Jump();
+                controller.BoostFromJetPack();
             }
             if (Input.GetKey(CustomInputManager.instance.jumpKey))
             {

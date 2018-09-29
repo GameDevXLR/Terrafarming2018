@@ -76,7 +76,7 @@ public class InGameManager : MonoBehaviour
                 HideQuitGameMenu();
                 return;
             }
-            if (!machineCanvas.activeSelf && !miningCanvas.activeSelf && !isPlanting)
+            if ((!machineCanvas || !machineCanvas.activeSelf) && !miningCanvas.activeSelf && !isPlanting)
             {
                 ShowQuitGameMenu();
             }

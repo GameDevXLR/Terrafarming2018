@@ -4,41 +4,79 @@ using UnityEngine;
 
 public class JetPackPlayer : MonoBehaviour, IConsommation {
 
-    public bool canFly;
-    public float jumpForce;
     public FuelTank reservoir;
-    [SerializeField, HideInInspector]
-    private TerrainEnum terrains;
 
     [SerializeField]
-    private int consoBoost, consoVol;
+    private JetPackSO jetPack;
 
-    public TerrainEnum Terrains { get => terrains; set => terrains = value; }
-    
+    public bool isFlying = false;
+
+    [SerializeField]
+    private PlayerController controller;
+
+    public bool CanBoost()
+    {
+        return reservoir.HaveEnougthEnergy(ConsoBoost);
+    }
+
+    public bool CanFly()
+    {
+        return reservoir.HaveEnougthEnergy(Conso);
+    }
+
+    #region setter / getter
+    public float JumpForce { get => JetPack.jumpForce; }
+    public TerrainEnum Terrains { get => JetPack.Terrain;  }
+
+    public JetPackSO JetPack {
+        get => jetPack;
+        set
+        {
+            if (isFlying)
+            {
+                StopConsommation();
+                jetPack = value;
+                StartConsommation();
+            }
+            else
+                jetPack = value;
+
+            Debug.Log(value);
+
+
+        }
+    }
+
+    #endregion
+
 
     #region IConsommation
-    public int Conso => consoVol;
+    public int Conso => JetPack.consoVol;
 
-    public int ConsoBoost => ConsoBoost;
+    public int ConsoBoost => JetPack.consoBoost;
 
-    public void StartConsommation()
+
+    public bool StartConsommation()
     {
-        reservoir.StartConso(this);
+        isFlying = true;
+        return reservoir.StartConso(this);
     }
 
     public void StopConsommation()
     {
+        isFlying = false;
         reservoir.StopConso(this);
     }
 
     public void FailConsommation()
     {
+        isFlying = false;
         Debug.Log("pas assez d'énergie");
     }
 
-    public void BoostConso()
+    public bool BoostConso()
     {
-        reservoir.Conso(this);
+        return reservoir.Conso(this);
     }
     #endregion
 }

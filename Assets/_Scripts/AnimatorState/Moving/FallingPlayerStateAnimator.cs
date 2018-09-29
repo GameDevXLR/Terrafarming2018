@@ -10,14 +10,12 @@ public class FallingPlayerStateAnimator : PlayerStateAnimator
         }
         else
         {
-            if (Input.GetKey(CustomInputManager.instance.jumpKey))
-            {
-                SwitchAnime(AnimeParameters.isjumping, true);
-            }
-            //else if (controller.transform.position.y <= -1)
-            //{
-            //    SwitchAnime(AnimeParameters.isflying, true);
-            //}
+            if (Input.GetKey(CustomInputManager.instance.jumpKey) )
+                if(controller.JetPack.CanBoost())
+                    SwitchAnime(AnimeParameters.isjumping, true);
+                else if(controller.JetPack.CanFly())
+                    SwitchAnime(AnimeParameters.isflying, true);
+
         }
     }
 }
