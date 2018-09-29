@@ -5,41 +5,40 @@ using UnityEngine;
 public class JetPackManager : MonoBehaviour {
 
     public JetPackSO[] jetPacks;
+    public KeyCode[] asignKeycode;
 
     public JetPackPlayer jetPackPlayer;
+    public JetPackPlayerUI jetpackUI;
 
    
 
     private void Start()
     {
-        InGameManager.instance.playerController.JetPack.JetPack = jetPacks[0];
+        SwitchJetPack(0);
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Keypad0))
-        {
-            InGameManager.instance.playerController.JetPack.JetPack = jetPacks[0];
-        }
+        DetectChangeJetPack();
+    }
 
-        if (Input.GetKeyDown(KeyCode.Keypad1))
+    private void DetectChangeJetPack()
+    {
+        int i = 0;
+        int length= asignKeycode.Length;
+        while (i < length && !Input.GetKeyDown(asignKeycode[i]))
         {
-            InGameManager.instance.playerController.JetPack.JetPack = jetPacks[1];
+            i++;
         }
+        if(i < length)
+        {
+            SwitchJetPack(i);
+        }
+    }
 
-        if (Input.GetKeyDown(KeyCode.Keypad2))
-        {
-            InGameManager.instance.playerController.JetPack.JetPack = jetPacks[2];
-        }
-
-        if (Input.GetKeyDown(KeyCode.Keypad3))
-        {
-            InGameManager.instance.playerController.JetPack.JetPack = jetPacks[3];
-        }
-
-        if (Input.GetKeyDown(KeyCode.Keypad4))
-        {
-            InGameManager.instance.playerController.JetPack.JetPack = jetPacks[4];
-        }
+    private void SwitchJetPack(int index)
+    {
+        jetPackPlayer.JetPack = jetPacks[index];
+        jetpackUI.SwitchJetPack();
     }
 }

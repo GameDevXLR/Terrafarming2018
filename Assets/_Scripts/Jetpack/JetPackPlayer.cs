@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
 public class JetPackPlayer : MonoBehaviour, IConsommation {
+
 
     public FuelTank reservoir;
 
@@ -40,10 +43,6 @@ public class JetPackPlayer : MonoBehaviour, IConsommation {
             }
             else
                 jetPack = value;
-
-            Debug.Log(value);
-
-
         }
     }
 
@@ -78,5 +77,5 @@ public class JetPackPlayer : MonoBehaviour, IConsommation {
     {
         return reservoir.Conso(this);
     }
-    #endregion
+#endregion
 }
