@@ -15,4 +15,4 @@ MonoBehaviour:
   terrains: 0
   consoBoost: 0
   consoVol: 0
-  canVol: 0
+  canVol: 1

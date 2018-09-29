@@ -57,8 +57,12 @@ public class JetPackPlayer : MonoBehaviour, IConsommation {
 
     public bool StartConsommation()
     {
-        isFlying = true;
-        return reservoir.StartConso(this);
+        if (jetPack.canVol)
+        {
+            isFlying = true;
+            return reservoir.StartConso(this);
+        }
+        return false;
     }
 
     public void StopConsommation()
@@ -73,9 +77,14 @@ public class JetPackPlayer : MonoBehaviour, IConsommation {
         Debug.Log("pas assez d'énergie");
     }
 
+    
     public bool BoostConso()
     {
-        return reservoir.Conso(this);
+        if (jetPack.canVol)
+        {
+            return reservoir.Conso(this);
+        }
+        return false;
     }
 #endregion
 }
